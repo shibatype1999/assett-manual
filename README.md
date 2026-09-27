@@ -27,7 +27,9 @@ assett-manual/
 │   │   ├── settings/index.md
 │   │   ├── premium/index.md
 │   │   └── faq/index.md
-│   └── en/                    … 英語版（ja/ と同じ構成・同じフォルダ名）
+│   ├── en/                    … 英語版（ja/ と同じ構成・同じフォルダ名）
+│   ├── privacy-policy/        … プライバシーポリシー（日本語）→ /privacy-policy、en/ に英語版
+│   └── terms-of-service/      … 利用規約（日本語）→ /terms-of-service、en/ に英語版
 ├── images/                    … スクリーンショット（Bludit には取り込まれず、GitHub から直接表示）
 │   ├── README.md              … 撮影リスト
 │   ├── ja/
@@ -129,7 +131,7 @@ Android 用のスクリーンショットは `images/<言語>/android/` に置�
 
 ## 未確定の項目
 
-- アプリの利用規約・プライバシーポリシーは `https://asset.fubuki.info/terms-of-service`・`https://asset.fubuki.info/privacy-policy` を開きます。これらのページを Bludit で公開する場合は、**このリポジトリの `pages/` に追加してください**。Remote Content の取り込みで、リポジトリにないページは削除されます。
+- アプリの「プライバシーポリシー」「利用規約」は `https://asset.fubuki.info/privacy-policy`・`https://asset.fubuki.info/terms-of-service` を開きます。これらは `pages/privacy-policy/`・`pages/terms-of-service/`（日本語）と、その下の `en/`（英語、`/privacy-policy/en` など）で管理しています。**フォルダ名を変えるとアプリのリンクが切れる**ので注意してください。
 
 ## 用語
 

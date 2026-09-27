@@ -56,7 +56,7 @@ If you contact us, your name, email address, and the content of your inquiry are
 
 ## 9. Changes to this Policy
 
-The Operator may change this Policy as necessary. The revised Policy takes effect when it is posted on this page.
+The Operator may change this Policy as necessary. When doing so, the Operator will set an effective date and, before that date, announce the revised Policy and the effective date on this page.
 
 ## 10. Contact
 

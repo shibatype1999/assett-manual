@@ -51,8 +51,7 @@ The Operator may change the content of the App, or suspend or terminate the App,
 ## Article 8 (Disclaimer)
 
 1. The Operator does not guarantee that the App will be fit for any particular purpose of the User or that it will be free of defects.
-2. The Operator is not liable for any damage incurred by the User through the use of the App, except in cases of the Operator's willful misconduct or gross negligence.
-3. Notwithstanding the preceding paragraph, where the Operator is liable, the Operator's liability is limited to the amount of fees for the App paid by the User to the Operator in the month in which the damage occurred, except in cases of the Operator's willful misconduct or gross negligence.
+2. The Operator shall be liable for damage incurred by the User through the use of the App up to the amount of fees for the App paid by the User in the month in which the damage occurred, except in cases of the Operator's willful misconduct or gross negligence.
 
 ## Article 9 (Intellectual property)
 
@@ -60,7 +59,10 @@ Copyrights and other intellectual property rights relating to the App belong to 
 
 ## Article 10 (Changes to these Terms)
 
-The Operator may change these Terms as necessary. The revised Terms take effect when they are posted on this page.
+1. The Operator may change these Terms without the User's consent in either of the following cases:
+   1. The change conforms to the general interests of Users
+   2. The change does not conflict with the purpose of these Terms and is reasonable in light of the necessity of the change, the appropriateness of the changed content, and other circumstances relating to the change
+2. When changing these Terms, the Operator will set an effective date and, before that date, announce the revised Terms and the effective date on this page.
 
 ## Article 11 (Governing law and jurisdiction)
 

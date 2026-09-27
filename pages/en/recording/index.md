@@ -1,44 +1,30 @@
 # Recording Balances
-<!-- position: 2 -->
-<!-- description: How to record, edit, and delete balances for each category. -->
+<!-- position: 3 -->
+<!-- description: How to record, edit, and delete balances for each asset, and how to read the record list. -->
 
 ## The Input tab
 
-The **Input** tab shows your total assets and the balance of each category.
+The **Input** tab (titled **Asset input**) lists the assets you have registered.
 
-![Input tab](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/home.png)
+![Input tab](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/input.png)
 
-### Total Assets
-
-The latest balances of all categories, converted to your **default currency** (→ [Currencies and Exchange Rates](currency)) and added up.
-
-- If you use more than one currency, **subtotals per currency** appear below the total. For currencies other than the default, the converted amount is shown in parentheses.
-- If you have set an asset goal, the **goal amount**, a **progress bar**, and the **achievement rate** are shown.
-- Tap the refresh button (⟳) at the top right to update exchange rates (up to 2 times per day).
-
-![Total assets](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/home-total.png)
-
-### Category Breakdown
-
-A pie chart shows each category's share of your total assets. Categories with a balance of zero or less (such as liabilities) are not shown.
-
-### Category list
-
-Each category shows its latest balance. Tap a category to open its list of records.
+- Each asset shows its **latest balance** (in the asset's own currency) and, below it, the **change vs last month** (amount and percentage). Increases are shown in green and decreases in red.
+- Tap an asset to open its record list.
+- Tap **Add asset** at the bottom right to add an asset. Tap the pencil icon at the top right to open the **Asset list**, where you can edit, reorder, and delete assets (→ [Managing Assets](assets)).
 
 ## Recording a balance
 
-1. On the **Input** tab, tap the category you want to record.
-2. Tap the **+** button at the bottom right.
+1. On the **Input** tab, tap the asset you want to record.
+2. Tap **New entry** at the bottom right.
 3. On the **Add Record** screen, fill in the following:
 
    | Field | Description |
    | --- | --- |
-   | Date | The date you checked the balance. Tap to pick from a calendar. Defaults to today. |
-   | Currency | Shows the currency set for the category (cannot be changed here). |
+   | Date | The date and time you checked the balance. Tap to pick a date from the calendar, then a time. Defaults to now. |
+   | Currency | Shows the currency set for the asset (cannot be changed here). |
    | Amount | The balance as of that date. Thousands separators are added automatically. |
-   | Subcategory (optional) | A label for the record (e.g. Salary, Valuation). |
-   | Memo (optional) | Any note you like. |
+   | Subcategory (optional) | Choose a label for the record (e.g. Salary, Valuation) with the scroll wheel. |
+   | Memo (optional) | Any note you like. You can write multiple lines. |
 
 4. Tap **Save** at the top right.
 
@@ -46,18 +32,26 @@ Each category shows its latest balance. Tap a category to open its list of recor
 
 > **Notes**
 > - Enter the **balance at that time**, not the amount that increased or decreased.
-> - In a category with **Treat as Liability** turned on, amounts are recorded as negative (liability) even if you enter a positive number.
-> - If there are several records on the same date, all of them are kept in the list.
+> - Regardless of the number format in **Settings** → **Display Format**, enter amounts like "1,234.56" (with a period as the decimal point).
+> - In an asset with **Treat as Liability** turned on, amounts are recorded as negative (liability) even if you enter a positive number.
 
-## Viewing records
+## Reading the record list
 
-Tap a category to see its list of records.
+Tap an asset to see its record list.
 
-![Record list](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/category-detail.png)
+![Record list](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/asset-detail.png)
 
-- **Current Balance** (the amount of the latest record) is shown at the top.
-- Records are listed from newest to oldest.
-- Each record shows its date, subcategory, and memo.
+- **Current Balance** (the amount of the latest record) and the change vs last month are shown at the top.
+- Records are shown in a table of **Date**, **Subcategory**, **Amount**, and **Memo**. Long memos are shortened; tap the record to see the full text.
+- You can filter and sort the records as follows.
+
+| Control | Description |
+| --- | --- |
+| Period | Choose **1Y** (default), **3 years**, **All**, or **Custom**. With **Custom**, set the start and end dates with the scroll wheels. |
+| Sort | Choose **Date (newest)**, **Date (oldest)**, **Amount (high to low)**, or **Amount (low to high)**. |
+| Per page | Choose how many records to show per page (30, 50, or 100). |
+
+If there are many records, use the page numbers or **‹** / **›** below the table. The number of matching records is shown above the table.
 
 ## Editing a record
 
@@ -76,4 +70,5 @@ Tap a category to see its list of records.
 ## About subcategories
 
 Subcategories are labels you can attach to records. **Sale**, **Withdrawal**, **Salary**, **Valuation**, and **Deposit** are provided by default.
-You can add, rename, reorder, and delete subcategories under **Manage Subcategories** on the **Settings** tab (→ [Settings](settings)).
+If you attach subcategories, the **Change factors** view in the chart shows what caused your balances to rise or fall (→ [Viewing Trends in Charts](chart)).
+You can add, rename, reorder, and delete subcategories under **Settings** → **Subcategories** (→ [Settings](settings)).

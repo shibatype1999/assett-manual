@@ -1,55 +1,66 @@
-# Managing Categories
-<!-- position: 3 -->
-<!-- description: How to add, edit, reorder, and delete categories, and how liability categories work. -->
+# Grouping with Categories
+<!-- position: 5 -->
+<!-- description: How to group similar assets into categories and view charts and other screens by category. -->
 
-A category groups one type of asset (e.g. Bank, Stocks, Real Estate, Crypto, Credit Card).
-Manage categories on the **Category** tab.
+A category is a group of similar assets.
+For example, if you put "Bank A" and "Bank B" into **Deposits & Cash** and "Broker C" and "Broker D" into **Stocks & Funds**, you can switch the chart, asset composition, and dashboard to **By category** to see totals per category.
 
-![Category tab](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/category-list.png)
+Manage categories under **Settings** → **Categories**.
+
+![Categories screen](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/category-list.png)
+
+The list shows the names of the assets in each category.
+
+## Default categories
+
+The following categories are provided from the start. They are marked **Default** in the list.
+
+Deposits & Cash, Stocks & Funds, Bonds, Insurance, Pension, Points, Miles, Real Estate, Crypto, Commodities (Precious Metals), Other
+
+- Default categories **cannot be deleted or renamed**. Their names are shown in the app's display language.
+- You can change their color and the assets they contain.
+
+## Putting assets into a category
+
+You can do this in either of two ways.
+
+- **From the asset** – On the asset's edit screen, choose a category under **Category** (→ [Managing Assets](assets)).
+- **From the category** – Tap a category, check the assets under **Assets in this category**, and tap **Save**.
+
+Each asset can belong to only one category. Assets already in another category show "Currently: …"; checking one moves it to this category.
 
 ## Adding a category
 
-1. On the **Category** tab, tap the **+** button at the bottom right.
-2. On the **Add Category** screen, set the following:
+1. Under **Settings** → **Categories**, tap **Add category** at the bottom right.
+2. Set the following:
 
    | Field | Description |
    | --- | --- |
-   | Category Name | The name of the category (e.g. Crypto, Cash, Car). |
-   | Category Currency | The currency used for records in this category. You can also choose foreign currencies, gold, Bitcoin, points, and more. |
-   | Treat as Liability | When on, all amounts in this category are counted as negative (liability). |
-   | Color | The color used in charts and elsewhere. Choose from 8 colors. |
-   | Icon | The icon for the category. |
+   | Category name | The name of the category (e.g. Cash, Securities). |
+   | Color | The chart color used when showing by category. |
+   | Assets in this category | Check the assets to include. |
 
 3. Tap **Save** at the top right.
 
-![Add Category screen](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/category-form.png)
+![Category edit screen](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/category-form.png)
 
-> **Notes**
-> - If you choose a currency other than your default currency, you can check and change its rate under **Currency & Rates** on the **Settings** tab (→ [Currencies and Exchange Rates](currency)).
-> - Manage loans and unpaid credit card balances in a category with **Treat as Liability** turned on, so they are subtracted from your total assets.
+## Editing, reordering, and deleting categories
 
-## Editing a category
+- **Edit** – Tap a category, make your changes, and tap **Save**.
+- **Reorder** – Press and hold the **≡** handle on the right, then drag it up or down.
+- **Delete** – Tap a category, tap **Delete category** at the bottom of the edit screen, then tap **Delete** in the confirmation dialog. Deleting a category **does not delete its assets or records**. Default categories cannot be deleted.
 
-1. On the **Category** tab, tap the category you want to edit.
-2. On the **Edit Category** screen, make your changes and tap **Save**.
+## Switching between by asset and by category
 
-## Reordering categories
+On the following screens, use the **By asset** / **By category** buttons to switch the display. The choice is saved separately for each screen (or panel).
 
-Press and hold the **≡** handle on the right of a category, then drag it up or down.
-The order is also used on the **Input** tab and in charts.
+| Screen | Where the buttons are |
+| --- | --- |
+| Chart | At the top of the screen |
+| Asset Composition | Below Total Assets |
+| Dashboard | At the top right of the **Asset Breakdown** and **Totals by asset** panels |
 
-## Deleting a category
+With **By category**, assets in a category are shown as that category's total, and assets not in any category are shown individually.
 
-1. Tap the edit button (pencil icon) at the top right of the **Category** tab.
-2. Tap the trash icon to the right of the category you want to delete.
-3. Tap **Delete** in the confirmation dialog.
-4. When you're done, tap the done button (✓) at the top right.
-
-> **Caution**
-> Deleting a category also **deletes all of its records**, and this cannot be undone.
-> Back up your data first if needed (→ [Backing Up and Restoring Data](backup)).
-
-## About the default categories
-
-When you first launch the app, three categories are provided: **Bank**, **Stocks**, and **Real Estate**.
-You can freely edit or delete them. If you haven't renamed them, their names change to match the app's display language when you switch languages.
+> **Note**
+> The buttons appear only when at least one category contains assets.

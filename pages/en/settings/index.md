@@ -1,6 +1,6 @@
 # Settings
-<!-- position: 8 -->
-<!-- description: Asset goal, display format, theme, language, and other settings. -->
+<!-- position: 10 -->
+<!-- description: Asset goal, display format, date format, theme, language, and other settings. -->
 
 The **Settings** tab lets you change various app settings.
 
@@ -8,11 +8,15 @@ The **Settings** tab lets you change various app settings.
 
 | Item | Description |
 | --- | --- |
+| Upgrade | View and purchase Premium plans. → [Premium](premium) |
 | Asset Goal | Set a target amount for your total assets. |
-| Display Format | Set decimal places and rounding. |
+| Display Format | Set decimal places, rounding, and number format. |
+| Date Format | Choose how dates are shown in the app. |
 | Theme | Switch between light and dark display. |
 | Theme Color | Change the app's main color. |
-| Manage Subcategories | Manage the subcategories attached to records. |
+| Asset list | Add, edit, reorder, and delete assets. → [Managing Assets](assets) |
+| Categories | Manage the categories that group your assets. → [Grouping with Categories](categories) |
+| Subcategories | Manage the subcategories attached to records. |
 | Language | Change the app's display language. |
 | Currency & Rates | Set your default currency and exchange rates. → [Currencies and Exchange Rates](currency) |
 | Backup | Back up and restore your data. → [Backing Up and Restoring Data](backup) |
@@ -21,13 +25,17 @@ The **Settings** tab lets you change various app settings.
 
 ## Asset Goal
 
-Set a target amount for your total assets. Once set, the achievement rate and a progress bar appear on the **Input** tab, and a goal line appears on the line chart in the **Chart** tab.
+Set a target amount for your total assets.
 
 1. Tap **Asset Goal**.
 2. Choose a **Currency** and enter the **Goal Amount**.
 3. Tap **Save**.
 
 If you enter the goal in a currency other than your default currency, it is converted to your default currency and saved.
+
+Turn on **Show goal on charts** to draw a red line at your goal amount on the total asset charts (on by default). This switch is saved as soon as you change it.
+
+Once a goal is set, the achievement rate appears on the **Total Assets** panel of the dashboard. Add the **Asset Goal** panel to also see the remaining amount and estimated achievement date (→ [Dashboard](dashboard)).
 
 ![Asset Goal settings](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/settings-goal.png)
 
@@ -37,8 +45,24 @@ Set how amounts are displayed.
 
 - **Decimal Places** – Choose **None**, **1**, or **2**.
 - **Rounding** – Choose how hidden digits are handled: **Floor**, **Round**, or **Ceiling**.
+- **Number format** – Choose the thousands separator and decimal point.
+
+  | Format | Example |
+  | --- | --- |
+  | Comma separators | 1,234,567.89 |
+  | No separators | 1234567.89 |
+  | Period separators (comma decimal) | 1.234.567,89 |
+  | Space separators (comma decimal) | 1 234 567,89 |
+  | Apostrophe separators | 1'234'567.89 |
 
 This only changes how amounts are displayed; the recorded amounts themselves don't change.
+In amount input fields, always enter numbers like "1,234.56", whichever format you choose.
+
+## Date Format
+
+Choose how all dates in the app are shown. The screen shows today's date in the selected format as an example.
+
+Available formats (for August 19, 2026): 2026/08/19, 19/8/26, 8/19/26, 8/19/2026, 19/08/2026, 19.08.2026, 19-08-2026, 2026/8/19, 2026.08.19, 2026-08-19
 
 ## Theme
 
@@ -46,9 +70,9 @@ Choose **Follow system setting**, **Light**, or **Dark**.
 
 ## Theme Color
 
-Choose the app's main color from 8 colors.
+Choose the app's main color. When you pick a color, the **Preview** shows right away how the total assets panel, buttons, and bottom menu will look.
 
-## Manage Subcategories
+## Subcategories
 
 Manage the subcategories (e.g. Salary, Valuation) that you attach to records.
 
@@ -65,7 +89,7 @@ Choose the app's display language. Choose **Follow system setting** to match you
 
 Available languages: 日本語, English, 한국어, 简体中文, 繁體中文, Español, Deutsch, Français, Русский, Bahasa Indonesia, Português, العربية, ไทย
 
-If you haven't renamed the default categories and subcategories, their names change to match the selected language.
+If you haven't renamed the default assets and subcategories, their names change to match the selected language. The names of default categories are also shown in the selected language.
 
 ## Help
 

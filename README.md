@@ -16,13 +16,16 @@ assett-manual/
 │   │   ├── index.md           … 親ページ（トップ・目次）   → /ja
 │   │   ├── getting-started/
 │   │   │   └── index.md       … 子ページ                   → /ja/getting-started
+│   │   ├── dashboard/index.md
 │   │   ├── recording/index.md
+│   │   ├── assets/index.md
 │   │   ├── categories/index.md
 │   │   ├── chart/index.md
 │   │   ├── asset-composition/index.md
 │   │   ├── currency/index.md
 │   │   ├── backup/index.md
 │   │   ├── settings/index.md
+│   │   ├── premium/index.md
 │   │   └── faq/index.md
 │   └── en/                    … 英語版（ja/ と同じ構成・同じフォルダ名）
 ├── images/                    … スクリーンショット（Bludit には取り込まれず、GitHub から直接表示）
@@ -120,9 +123,20 @@ Remote Content プラグインは、指定した zip ファイルをダウンロ
 
 - `pages/<言語>/backup/index.md`（共有シート・ファイル選択画面）
 - `pages/<言語>/faq/index.md` の機種変更に関する項目
+- `pages/<言語>/premium/index.md`（App Store でのサブスクリプションの購入・解約）
 
 Android 用のスクリーンショットは `images/<言語>/android/` に置くことを推奨します。
 
 ## 未確定の項目
 
-- 利用規約・プライバシーポリシー・お問い合わせのURLは未確定のため、本文には入れていません。決まりしだい `pages/<言語>/settings/index.md` の「ヘルプ」「詳細」の項に追記してください。
+- アプリの利用規約・プライバシーポリシーは `https://asset.fubuki.info/terms-of-service`・`https://asset.fubuki.info/privacy-policy` を開きます。これらのページを Bludit で公開する場合は、**このリポジトリの `pages/` に追加してください**。Remote Content の取り込みで、リポジトリにないページは削除されます。
+
+## 用語
+
+マニュアルの用語は、アプリの画面表示に合わせています。
+
+| 用語 | 意味 |
+| --- | --- |
+| 資産 | 残高を記録する単位（例: A銀行、B証券）。以前のバージョンの「カテゴリ」 |
+| カテゴリ | 資産をまとめるグループ（例: 預金・現金）。以前のバージョンの「グループ」 |
+| サブカテゴリ | 記録1件ごとに付けるラベル（例: 給料、評価額） |

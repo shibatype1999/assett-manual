@@ -1,11 +1,13 @@
 # Backing Up and Restoring Data
+<!-- position: 7 -->
+<!-- description: How to back up (locally or to a file) and restore your data. -->
 
 All of your data is stored on your device.
 We recommend backing up regularly in case you change devices or something goes wrong.
 
 Backups are under **Settings** → **Backup**.
 
-![Backup screen](../images/en/backup.png)
+![Backup screen](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/backup.png)
 
 There are two ways to back up.
 
@@ -46,7 +48,7 @@ Exports your data as a single file (`asset-YYYYMMDD-HHMMSS.json`) that you can s
    - **To save to iCloud Drive** – Tap **Save to Files**, choose a folder in **iCloud Drive**, then tap **Save**.
    - **To save to another app** – Choose an app such as Google Drive and follow the on-screen instructions.
 
-![Share sheet](../images/en/backup-share-sheet.png)
+![Share sheet](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/backup-share-sheet.png)
 
 ## Import Data (restore from a file)
 

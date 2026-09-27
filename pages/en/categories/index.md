@@ -1,9 +1,11 @@
 # Managing Categories
+<!-- position: 3 -->
+<!-- description: How to add, edit, reorder, and delete categories, and how liability categories work. -->
 
 A category groups one type of asset (e.g. Bank, Stocks, Real Estate, Crypto, Credit Card).
 Manage categories on the **Category** tab.
 
-![Category tab](../images/en/category-list.png)
+![Category tab](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/category-list.png)
 
 ## Adding a category
 
@@ -20,10 +22,10 @@ Manage categories on the **Category** tab.
 
 3. Tap **Save** at the top right.
 
-![Add Category screen](../images/en/category-form.png)
+![Add Category screen](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/category-form.png)
 
 > **Notes**
-> - If you choose a currency other than your default currency, you can check and change its rate under **Currency & Rates** on the **Settings** tab (→ [Currencies and Exchange Rates](06-currency.md)).
+> - If you choose a currency other than your default currency, you can check and change its rate under **Currency & Rates** on the **Settings** tab (→ [Currencies and Exchange Rates](currency)).
 > - Manage loans and unpaid credit card balances in a category with **Treat as Liability** turned on, so they are subtracted from your total assets.
 
 ## Editing a category
@@ -45,7 +47,7 @@ The order is also used on the **Input** tab and in charts.
 
 > **Caution**
 > Deleting a category also **deletes all of its records**, and this cannot be undone.
-> Back up your data first if needed (→ [Backing Up and Restoring Data](07-backup.md)).
+> Back up your data first if needed (→ [Backing Up and Restoring Data](backup)).
 
 ## About the default categories
 

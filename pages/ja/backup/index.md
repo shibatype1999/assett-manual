@@ -1,11 +1,13 @@
 # データのバックアップと復元
+<!-- position: 7 -->
+<!-- description: データのバックアップ（ローカル・ファイル）と復元の方法を説明します。 -->
 
 記録したデータは、すべてお使いの端末の中に保存されています。
 機種変更や万一のトラブルに備えて、定期的にバックアップを取ることをおすすめします。
 
 バックアップは「設定」タブ →「バックアップ」で行います。
 
-![バックアップ画面](../images/ja/backup.png)
+![バックアップ画面](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/backup.png)
 
 バックアップの方法は2種類あります。
 
@@ -46,7 +48,7 @@
    - **iCloud Drive に保存する場合** … 「"ファイル"に保存」をタップし、「iCloud Drive」内の保存したいフォルダを選んで「保存」をタップします。
    - **ほかのアプリに保存する場合** … Google Drive などのアプリを選び、画面の指示に従って保存します。
 
-![共有シート](../images/ja/backup-share-sheet.png)
+![共有シート](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/backup-share-sheet.png)
 
 ## データのインポート（ファイルから復元）
 

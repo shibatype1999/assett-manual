@@ -1,10 +1,12 @@
 # Currencies and Exchange Rates
+<!-- position: 6 -->
+<!-- description: Default currency, automatic and manual exchange rates, and custom currencies. -->
 
 You can set a currency for each category. Total assets and charts are always shown in your **default currency**.
 
 Currency settings are under **Settings** → **Currency & Rates**.
 
-![Currency & Rates screen](../images/en/currency-settings.png)
+![Currency & Rates screen](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/currency-settings.png)
 
 ## Available currencies
 
@@ -42,7 +44,7 @@ If any category uses a currency other than your default currency, the app fetche
 
 The **Currency Rates** section of the **Currency & Rates** screen lists the non-default currencies used by your categories, as well as your custom currencies.
 
-![Currency Rates](../images/en/currency-rate-row.png)
+![Currency Rates](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/currency-rate-row.png)
 
 1. In the field labeled like "1 USD → JPY", enter how much one unit is worth in your default currency.
 2. Tap ✓ on the right to save.

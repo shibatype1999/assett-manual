@@ -1,10 +1,12 @@
 # Getting Started
+<!-- position: 1 -->
+<!-- description: The screen layout and the basic steps for getting started. -->
 
 ## Screen layout
 
 Use the tabs at the bottom of the screen to switch between five screens.
 
-![Tab bar](../images/en/tab-bar.png)
+![Tab bar](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/tab-bar.png)
 
 | Tab | What you can do |
 | --- | --- |
@@ -31,17 +33,17 @@ When you first launch the app, three categories are already set up: **Bank**, **
 
 1. **Set up your categories**
    On the **Category** tab, add the categories you need and delete the ones you don't.
-   → [Managing Categories](03-categories.md)
+   → [Managing Categories](categories)
 2. **Record your balances**
    On the **Input** tab, tap a category and record its current balance.
-   → [Recording Balances](02-recording.md)
+   → [Recording Balances](recording)
 3. **Set a goal (optional)**
    Enter a goal amount under **Asset Goal** on the **Settings** tab to see your progress.
-   → [Settings](08-settings.md)
+   → [Settings](settings)
 4. **Record regularly**
    Recording balances on a regular schedule, such as once a month, lets you see trends in the charts.
-   → [Viewing Trends in Charts](04-chart.md)
+   → [Viewing Trends in Charts](chart)
 
 > **Tip**
 > To avoid losing important data, we recommend backing up from time to time.
-> → [Backing Up and Restoring Data](07-backup.md)
+> → [Backing Up and Restoring Data](backup)

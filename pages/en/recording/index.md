@@ -1,20 +1,22 @@
 # Recording Balances
+<!-- position: 2 -->
+<!-- description: How to record, edit, and delete balances for each category. -->
 
 ## The Input tab
 
 The **Input** tab shows your total assets and the balance of each category.
 
-![Input tab](../images/en/home.png)
+![Input tab](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/home.png)
 
 ### Total Assets
 
-The latest balances of all categories, converted to your **default currency** (→ [Currencies and Exchange Rates](06-currency.md)) and added up.
+The latest balances of all categories, converted to your **default currency** (→ [Currencies and Exchange Rates](currency)) and added up.
 
 - If you use more than one currency, **subtotals per currency** appear below the total. For currencies other than the default, the converted amount is shown in parentheses.
 - If you have set an asset goal, the **goal amount**, a **progress bar**, and the **achievement rate** are shown.
 - Tap the refresh button (⟳) at the top right to update exchange rates (up to 2 times per day).
 
-![Total assets](../images/en/home-total.png)
+![Total assets](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/home-total.png)
 
 ### Category Breakdown
 
@@ -40,7 +42,7 @@ Each category shows its latest balance. Tap a category to open its list of recor
 
 4. Tap **Save** at the top right.
 
-![Add Record screen](../images/en/record-form.png)
+![Add Record screen](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/record-form.png)
 
 > **Notes**
 > - Enter the **balance at that time**, not the amount that increased or decreased.
@@ -51,7 +53,7 @@ Each category shows its latest balance. Tap a category to open its list of recor
 
 Tap a category to see its list of records.
 
-![Record list](../images/en/category-detail.png)
+![Record list](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/category-detail.png)
 
 - **Current Balance** (the amount of the latest record) is shown at the top.
 - Records are listed from newest to oldest.
@@ -74,4 +76,4 @@ Tap a category to see its list of records.
 ## About subcategories
 
 Subcategories are labels you can attach to records. **Sale**, **Withdrawal**, **Salary**, **Valuation**, and **Deposit** are provided by default.
-You can add, rename, reorder, and delete subcategories under **Manage Subcategories** on the **Settings** tab (→ [Settings](08-settings.md#manage-subcategories)).
+You can add, rename, reorder, and delete subcategories under **Manage Subcategories** on the **Settings** tab (→ [Settings](settings)).

@@ -1,21 +1,23 @@
 # Settings
+<!-- position: 8 -->
+<!-- description: Asset goal, display format, theme, language, and other settings. -->
 
 The **Settings** tab lets you change various app settings.
 
-![Settings tab](../images/en/settings.png)
+![Settings tab](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/settings.png)
 
 | Item | Description |
 | --- | --- |
-| [Asset Goal](#asset-goal) | Set a target amount for your total assets. |
-| [Display Format](#display-format) | Set decimal places and rounding. |
-| [Theme](#theme) | Switch between light and dark display. |
-| [Theme Color](#theme-color) | Change the app's main color. |
-| [Manage Subcategories](#manage-subcategories) | Manage the subcategories attached to records. |
-| [Language](#language) | Change the app's display language. |
-| Currency & Rates | Set your default currency and exchange rates. → [Currencies and Exchange Rates](06-currency.md) |
-| Backup | Back up and restore your data. → [Backing Up and Restoring Data](07-backup.md) |
-| [Help](#help) | Open the guide or contact page. |
-| [Details](#details) | View the terms of service, version, and more. |
+| Asset Goal | Set a target amount for your total assets. |
+| Display Format | Set decimal places and rounding. |
+| Theme | Switch between light and dark display. |
+| Theme Color | Change the app's main color. |
+| Manage Subcategories | Manage the subcategories attached to records. |
+| Language | Change the app's display language. |
+| Currency & Rates | Set your default currency and exchange rates. → [Currencies and Exchange Rates](currency) |
+| Backup | Back up and restore your data. → [Backing Up and Restoring Data](backup) |
+| Help | Open the guide or contact page. |
+| Details | View the terms of service, version, and more. |
 
 ## Asset Goal
 
@@ -27,7 +29,7 @@ Set a target amount for your total assets. Once set, the achievement rate and a 
 
 If you enter the goal in a currency other than your default currency, it is converted to your default currency and saved.
 
-![Asset Goal settings](../images/en/settings-goal.png)
+![Asset Goal settings](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/settings-goal.png)
 
 ## Display Format
 

@@ -1,8 +1,10 @@
 # 資産構成を見る
+<!-- position: 5 -->
+<!-- description: 指定した日付時点の資産構成を確認する方法を説明します。 -->
 
 「資産構成」タブでは、指定した日付時点で、資産がどのカテゴリにどれだけあったかを確認できます。
 
-![資産構成タブ](../images/ja/asset-composition.png)
+![資産構成タブ](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/asset-composition.png)
 
 ## 使いかた
 

@@ -1,8 +1,10 @@
 # Viewing Trends in Charts
+<!-- position: 4 -->
+<!-- description: How to view trends of your total assets and categories in charts. -->
 
 The **Chart** tab shows how your total assets or each category's balance has changed over time, in charts and tables.
 
-![Chart tab](../images/en/chart-line.png)
+![Chart tab](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/chart-line.png)
 
 All amounts in the charts are converted to your default currency.
 
@@ -27,7 +29,7 @@ With **Custom**, you can set a start and end date.
 
 The selected range is shown above the chart. Tap it to change the range.
 
-![Selecting a range](../images/en/chart-custom-range.png)
+![Selecting a range](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/chart-custom-range.png)
 
 ## Switching chart types
 
@@ -41,7 +43,7 @@ When **All** is selected, use the buttons below the chart to switch chart types.
 
 Tap the chart to see the amount at that point.
 
-![Stacked chart](../images/en/chart-stacked.png)
+![Stacked chart](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/chart-stacked.png)
 
 When a category is selected, a line chart for that category is shown.
 
@@ -54,7 +56,7 @@ Below the chart is a table of **Date**, **Amount**, and **Change**.
 - The newest date is shown at the top.
 - Use **Rows** to choose how many rows to show per page (30 / 50 / 100). If there are more rows, use the page numbers below the table.
 
-![Trend table](../images/en/chart-table.png)
+![Trend table](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/chart-table.png)
 
 > **If no chart appears**
 > If the selected period doesn't contain enough records to draw a chart (at least two different dates), "No records to display for this period" is shown.

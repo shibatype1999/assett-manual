@@ -1,4 +1,6 @@
 # FAQ
+<!-- position: 9 -->
+<!-- description: Frequently asked questions about Asset Manager. -->
 
 ## Using the app
 
@@ -6,17 +8,17 @@
 
 No. This app records the **balances** of your assets.
 By recording the balances of your bank and brokerage accounts regularly, for example once a month, you can see how your assets change over time.
-→ [Getting Started](01-getting-started.md#the-basic-idea)
+→ [Getting Started](getting-started)
 
 ### Q. Can I track loans or credit card balances?
 
 Yes. Turn on **Treat as Liability** for a category, and its amounts are counted as negative and subtracted from your total assets.
-→ [Managing Categories](03-categories.md)
+→ [Managing Categories](categories)
 
 ### Q. Can I track foreign currency deposits or foreign stocks?
 
 Yes. Set the category's currency to, for example, US Dollar. You can record amounts in that currency, and your total assets are converted to your default currency.
-→ [Currencies and Exchange Rates](06-currency.md)
+→ [Currencies and Exchange Rates](currency)
 
 ### Q. Can I record gold or crypto?
 
@@ -29,7 +31,7 @@ Yes. Choose **Points** or **Miles** as the category currency. They are initially
 ### Q. I entered a record incorrectly.
 
 Tap the category to open its record list, then tap the incorrect record to edit it.
-→ [Recording Balances](02-recording.md#editing-a-record)
+→ [Recording Balances](recording)
 
 ## Display
 
@@ -40,7 +42,7 @@ To show a chart, the selected period needs records on at least two different dat
 ### Q. "Some currency rates could not be fetched and are not included in the total" appears.
 
 A category uses a currency whose rate is unknown. Go to **Settings** → **Currency & Rates** and fetch the rate for that currency, or enter it manually.
-→ [Currencies and Exchange Rates](06-currency.md)
+→ [Currencies and Exchange Rates](currency)
 
 ### Q. I can't refresh exchange rates.
 
@@ -54,7 +56,7 @@ The pie chart and the Asset Composition table only show categories with a positi
 ### Q. I want to show (or hide) decimal places.
 
 You can change the decimal places and rounding under **Settings** → **Display Format**.
-→ [Settings](08-settings.md#display-format)
+→ [Settings](settings)
 
 ## Data
 
@@ -74,7 +76,7 @@ No.
 3. On your new device, tap **Settings** → **Backup** → **Import Data**, choose the saved file, and restore it.
 
 The subcategory list, default currency, display format, and theme are not included in backups, so set them up again as needed.
-→ [Backing Up and Restoring Data](07-backup.md)
+→ [Backing Up and Restoring Data](backup)
 
 ### Q. What happens to my data if I delete the app?
 
@@ -84,4 +86,4 @@ Before deleting the app, save your data as a file with **Export Data**.
 ### Q. I accidentally deleted a category or record.
 
 Deleted data cannot be restored. If you have a backup made before the deletion, you can restore from it (restoring overwrites your current data).
-→ [Backing Up and Restoring Data](07-backup.md)
+→ [Backing Up and Restoring Data](backup)

@@ -1,8 +1,10 @@
 # Viewing Asset Composition
+<!-- position: 5 -->
+<!-- description: How to view your asset composition on a given date. -->
 
 The **Asset Composition** tab shows how much you had in each category on a date you choose.
 
-![Asset Composition tab](../images/en/asset-composition.png)
+![Asset Composition tab](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/asset-composition.png)
 
 ## How to use
 

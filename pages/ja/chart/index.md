@@ -1,8 +1,10 @@
 # チャートで推移を見る
+<!-- position: 4 -->
+<!-- description: チャートで総資産やカテゴリごとの推移を確認する方法を説明します。 -->
 
 「チャート」タブでは、総資産やカテゴリごとの残高の推移を、グラフと表で確認できます。
 
-![チャートタブ](../images/ja/chart-line.png)
+![チャートタブ](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/chart-line.png)
 
 グラフの金額は、すべて既定通貨に換算して表示されます。
 
@@ -27,7 +29,7 @@
 
 指定した期間はグラフの上に表示され、タップすると期間を変更できます。
 
-![期間の選択](../images/ja/chart-custom-range.png)
+![期間の選択](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/chart-custom-range.png)
 
 ## グラフの種類を切り替える
 
@@ -41,7 +43,7 @@
 
 グラフをタップすると、その時点の金額を確認できます。
 
-![積み上げグラフ](../images/ja/chart-stacked.png)
+![積み上げグラフ](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/chart-stacked.png)
 
 カテゴリを選んでいるときは、そのカテゴリの折れ線グラフが表示されます。
 
@@ -54,7 +56,7 @@
 - 新しい日付が上に表示されます。
 - 「表示件数」で、1ページに表示する行数（30 / 50 / 100）を選べます。行数が多い場合は、表の下のページ番号で切り替えます。
 
-![推移の表](../images/ja/chart-table.png)
+![推移の表](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/chart-table.png)
 
 > **グラフが表示されないときは**
 > 選んだ期間に、グラフを描くのに必要な記録（2日分以上）がないと、「この期間に表示できる記録がありません」と表示されます。

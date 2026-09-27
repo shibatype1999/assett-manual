@@ -1,20 +1,22 @@
 # 残高を記録する
+<!-- position: 2 -->
+<!-- description: カテゴリごとに残高を記録・編集・削除する方法を説明します。 -->
 
 ## 「入力」タブの見かた
 
 「入力」タブでは、総資産とカテゴリごとの残高を確認できます。
 
-![入力タブ](../images/ja/home.png)
+![入力タブ](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/home.png)
 
 ### 総資産
 
-全カテゴリの最新残高を、**既定通貨**（→ [通貨と為替レート](06-currency.md)）に換算して合計した金額です。
+全カテゴリの最新残高を、**既定通貨**（→ [通貨と為替レート](currency)）に換算して合計した金額です。
 
 - 複数の通貨を使っている場合は、総資産の下に**通貨ごとの小計**が表示されます。既定通貨以外の通貨には、換算後の金額がかっこ書きで表示されます。
 - 資産目標を設定している場合は、**目標金額**、**進捗バー**、**達成率**が表示されます。
 - 右上の更新ボタン（⟳）で、為替レートを最新の状態に更新できます（1日2回まで）。
 
-![総資産の表示](../images/ja/home-total.png)
+![総資産の表示](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/home-total.png)
 
 ### カテゴリ比率
 
@@ -40,7 +42,7 @@
 
 4. 右上の「保存」をタップします。
 
-![残高を記録画面](../images/ja/record-form.png)
+![残高を記録画面](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/record-form.png)
 
 > **ポイント**
 > - 金額には、増えた分・減った分ではなく**その時点の残高**を入力します。
@@ -51,7 +53,7 @@
 
 カテゴリをタップすると、そのカテゴリの記録一覧が表示されます。
 
-![記録一覧](../images/ja/category-detail.png)
+![記録一覧](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/category-detail.png)
 
 - 画面上部に「現在の残高」（最新の記録の金額）が表示されます。
 - 記録は新しい日付の順に並びます。
@@ -74,4 +76,4 @@
 ## サブカテゴリについて
 
 サブカテゴリは、記録に付けられるラベルです。はじめは「売却」「引き出し」「給料」「評価額」「預金」が用意されています。
-サブカテゴリの追加・名前の変更・並べ替え・削除は、「設定」タブの「サブカテゴリ管理」で行います（→ [設定](08-settings.md#サブカテゴリ管理)）。
+サブカテゴリの追加・名前の変更・並べ替え・削除は、「設定」タブの「サブカテゴリ管理」で行います（→ [設定](settings)）。

@@ -1,10 +1,12 @@
 # 通貨と為替レート
+<!-- position: 6 -->
+<!-- description: 既定通貨、為替レートの自動取得・手動設定、カスタム通貨について説明します。 -->
 
 このアプリでは、カテゴリごとに通貨を設定できます。総資産やグラフは、すべて**既定通貨**に換算して表示されます。
 
 通貨の設定は「設定」タブ →「通貨・レート」で行います。
 
-![通貨・レート画面](../images/ja/currency-settings.png)
+![通貨・レート画面](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/currency-settings.png)
 
 ## 使える通貨
 
@@ -42,7 +44,7 @@
 
 「通貨・レート」画面の「通貨レート設定」には、カテゴリで使っている既定通貨以外の通貨と、カスタム通貨が表示されます。
 
-![通貨レート設定](../images/ja/currency-rate-row.png)
+![通貨レート設定](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/currency-rate-row.png)
 
 1. 「1 USD → JPY」のように表示された入力欄に、1単位あたりの既定通貨の金額を入力します。
 2. 右側の ✓ をタップして保存します。

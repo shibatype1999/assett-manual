@@ -1,8 +1,10 @@
 # 資産管理アプリ ご利用ガイド
+<!-- position: 1 -->
+<!-- description: 資産管理アプリの使いかたをまとめたご利用ガイドです。 -->
 
 資産管理アプリは、銀行預金・株式・不動産・仮想通貨・ポイントなど、さまざまな資産の残高をひとつにまとめて記録し、総資産の推移をグラフで確認できるアプリです。
 
-![アプリのホーム画面](../images/ja/home.png)
+![アプリのホーム画面](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/home.png)
 
 ## このアプリでできること
 
@@ -17,15 +19,15 @@
 
 ## 目次
 
-1. [はじめに（画面構成と基本の流れ）](01-getting-started.md)
-2. [残高を記録する](02-recording.md)
-3. [カテゴリを管理する](03-categories.md)
-4. [チャートで推移を見る](04-chart.md)
-5. [資産構成を見る](05-asset-composition.md)
-6. [通貨と為替レート](06-currency.md)
-7. [データのバックアップと復元](07-backup.md)
-8. [設定](08-settings.md)
-9. [よくある質問](09-faq.md)
+1. [はじめに（画面構成と基本の流れ）](ja/getting-started)
+2. [残高を記録する](ja/recording)
+3. [カテゴリを管理する](ja/categories)
+4. [チャートで推移を見る](ja/chart)
+5. [資産構成を見る](ja/asset-composition)
+6. [通貨と為替レート](ja/currency)
+7. [データのバックアップと復元](ja/backup)
+8. [設定](ja/settings)
+9. [よくある質問](ja/faq)
 
 ## 対応環境
 

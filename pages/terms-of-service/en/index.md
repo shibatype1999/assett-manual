@@ -52,6 +52,9 @@ The Operator may change the content of the App, or suspend or terminate the App,
 
 1. The Operator does not guarantee that the App will be fit for any particular purpose of the User or that it will be free of defects.
 2. The Operator shall be liable for damage incurred by the User through the use of the App up to the amount of fees for the App paid by the User in the month in which the damage occurred, except in cases of the Operator's willful misconduct or gross negligence.
+3. All internet data charges incurred in connection with the use of the App (including, but not limited to, fetching exchange rates and market prices, downloading and updating the App, purchasing and verifying Premium, and viewing pages such as Help and Contact) shall be borne by the User.
+4. Even if unintended data retransmission or additional communication occurs due to failures of the App, external services, or communication lines, or due to communication errors, the Operator will not compensate for data charges, except as provided in paragraph 2.
+5. Data communication abroad (roaming) can be expensive. Data charges incurred when using the App abroad shall also be borne entirely by the User. The User is responsible for checking their mobile data and roaming settings.
 
 ## Article 9 (Intellectual property)
 
@@ -74,3 +77,4 @@ Copyrights and other intellectual property rights relating to the App belong to 
 For inquiries about these Terms, please use our [contact form](../contact/en).
 
 Established: September 27, 2026
+Revised: September 30, 2026

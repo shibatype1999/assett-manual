@@ -79,7 +79,7 @@ Remote Content プラグインは、指定した zip ファイルをダウンロ
    以後、マニュアルを更新したら Webhook のURL（`https://サイト/<Webhook の文字列>`）にアクセスすると再取り込みされます。
    GitHub の Webhook（リポジトリの Settings → Webhooks）にこのURLを登録すると、`main` へのプッシュ時に自動で更新されます。
 5. トップページ（`https://サイト/`）を開いた人をブラウザの言語に合わせて `/ja`・`/en` へ転送するには、[Language Redirect プラグイン](bludit/plugins/language-redirect/README.md) をサーバーに設置します。
-6. お問い合わせフォームを使うには、[Contact Form プラグイン](bludit/plugins/contact-form/README.md) をサーバーに設置し、受信用メールアドレスを設定します。
+6. お問い合わせフォームを使うには、[Contact Form プラグイン](bludit/plugins/contact-form/README.md) をサーバーに設置し、受信用メールアドレスを設定します（PHP mail()／SMTP、reCAPTCHA v2・hCaptcha・論理的な質問、同意チェック、送信者へのコピーに対応）。
 
 > **ご注意**
 > 取り込みを実行すると、**Bludit に登録されている既存のページとアップロード済みの画像はすべて削除**され、このリポジトリの内容に置き換わります。

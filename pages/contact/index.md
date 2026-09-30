@@ -1,12 +1,8 @@
-# お問い合わせ
+# お問い合わせ / Contact
 <!-- position: 5 -->
-<!-- description: 資産管理アプリへのお問い合わせフォームです。 -->
+<!-- description: 資産管理アプリへのお問い合わせ / Contact the Asset Manager app team -->
 
-[English](contact/en)
+ご希望の言語を選んでください。 / Please choose your language.
 
-資産管理アプリについてのご質問・不具合のご報告は、下のフォームからお送りください。
-内容を確認のうえ、ご入力いただいたメールアドレスへご連絡します。
-
-使い方については、[ご利用ガイド](ja)や[よくある質問](ja/faq)もあわせてご覧ください。
-
-<!-- contact-form -->
+- [日本語](contact/ja)
+- [English](contact/en)

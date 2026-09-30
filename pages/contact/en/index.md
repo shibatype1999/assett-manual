@@ -1,8 +1,8 @@
 # Contact
-<!-- position: 1 -->
+<!-- position: 2 -->
 <!-- description: Contact form for the Asset Manager app. -->
 
-[日本語](../contact)
+[日本語](ja)
 
 Please use the form below to send questions or bug reports about Asset Manager.
 We will review your message and reply to the email address you enter.

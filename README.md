@@ -31,6 +31,7 @@ assett-manual/
 │   ├── privacy-policy/        … プライバシーポリシー（日本語）→ /privacy-policy、en/ に英語版
 │   ├── contact/               … お問い合わせ。/contact は言語選択（Language Redirect で自動転送）、ja/ が日本語 → /contact/ja、en/ が英語 → /contact/en
 │   └── terms-of-service/      … 利用規約（日本語）→ /terms-of-service、en/ に英語版
+├── drafts/                    … 下書き（Bludit には取り込まれません。例: 広告を入れる時の規約・ポリシーの文案）
 └── images/                    … スクリーンショット（Bludit には取り込まれず、GitHub から直接表示）
     ├── README.md              … 撮影リスト
     ├── ja/

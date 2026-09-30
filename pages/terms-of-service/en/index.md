@@ -18,18 +18,19 @@ These Terms are a translation of the Japanese version. If there is any discrepan
 
 1. The App is provided through the App Store or Google Play operated by Apple Inc. or Google LLC (each a "Platform Provider").
 2. In addition to these Terms, the terms of use, policies, and other rules set by each Platform Provider apply to the use of the App.
-3. Billing, refunds, subscription cancellations, and similar matters are governed by the rules of each Platform Provider.
+3. If the User obtains the App from the App Store, Apple Inc.'s standard Licensed Application End User License Agreement applies, and these Terms apply together with it.
+4. Billing, refunds, subscription cancellations, and similar matters are governed by the rules of each Platform Provider.
 
 ## Article 3 (Conditions of use)
 
 1. The User may use the App for the purpose of managing their personal assets in accordance with these Terms.
 2. The App is a tool for recording, totaling, and displaying information such as asset balances entered by the User. It does not solicit the purchase or sale of financial products, nor does it provide investment, tax, or other advice.
-3. Please use the App on a device that meets the requirements (such as supported OS versions) shown on the App's page in the App Store or Google Play. Operation on devices that do not meet the requirements is not guaranteed.
+3. Please use the App on a device that meets the requirements (such as supported OS versions) shown on the App's page in the App Store or Google Play. Operation on devices that do not meet the requirements, or on devices whose OS restrictions have been removed by jailbreaking, rooting, or similar methods, is not guaranteed.
 
 ## Article 4 (Paid services)
 
 1. Some features of the App ("Premium") are provided as a paid subscription.
-2. Premium is purchased and paid for through a Platform Provider.
+2. Premium is purchased and paid for through a Platform Provider. The Operator does not obtain or hold the User's payment information, such as credit card details.
 3. If there is a free trial, the price of the selected plan is charged automatically after the trial ends.
 4. Subscriptions renew automatically unless canceled at least 24 hours before the end of the current period (including any free trial). You can cancel in your Platform Provider account settings.
 5. Refunds are handled according to the rules of the Platform Provider. The Operator cannot issue refunds directly.
@@ -41,10 +42,12 @@ These Terms are a translation of the Japanese version. If there is any discrepan
 2. The User is responsible for managing the Platform Provider account (such as an Apple ID) used to purchase Premium.
 3. The Operator is not liable for any damage caused by insufficient management of the User's account, use by a third party, or similar causes, except as provided in Article 11, paragraph 1.
 
-## Article 6 (Data management)
+## Article 6 (Data and personal information)
 
 1. The App's data is stored on the User's device. The User is responsible for managing and backing up their data.
 2. If data is lost due to device failure or loss, deletion of the App, OS updates, or any other reason, the Operator cannot restore it.
+3. The Operator handles User information appropriately in accordance with the [Privacy Policy](../privacy-policy/en).
+4. The App does not access device features or information such as location, camera, microphone, contacts, or photos. Backup files are selected or shared only when the User performs that action.
 
 ## Article 7 (Prohibited acts)
 
@@ -53,7 +56,8 @@ When using the App, the User must not:
 1. Violate laws or public order and morals
 2. Modify, analyze (including reverse engineering), copy, or redistribute the App
 3. Interfere with the operation of the App or of the external services it uses
-4. Engage in any other act the Operator deems inappropriate
+4. Use the App on a device whose OS restrictions have been removed by jailbreaking, rooting, or similar methods
+5. Engage in any other act the Operator deems inappropriate
 
 ## Article 8 (Changes, suspension, and termination of the App)
 
@@ -101,7 +105,7 @@ Even if any provision of these Terms, or any part thereof, is held invalid or un
 ## Article 16 (Language, governing law, and jurisdiction)
 
 1. The Japanese version of these Terms is the original. If there is any discrepancy between the Japanese version and a translation into English or any other language, the Japanese version prevails.
-2. These Terms are governed by the laws of Japan.
+2. These Terms are governed by the laws of Japan. However, this does not prevent the application of provisions of the laws of the country or region where the User resides that cannot be excluded by agreement (mandatory provisions).
 3. Any dispute relating to the App shall be subject to the exclusive jurisdiction, in the first instance, of the court having jurisdiction over the Operator's location.
 
 Established: September 27, 2026

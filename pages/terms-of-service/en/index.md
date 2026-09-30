@@ -71,6 +71,6 @@ Copyrights and other intellectual property rights relating to the App belong to 
 
 ## Contact
 
-For inquiries about these Terms, please contact us from **Settings** → **Help** → **Contact** in the App.
+For inquiries about these Terms, please use our [contact form](../contact/en).
 
 Established: September 27, 2026

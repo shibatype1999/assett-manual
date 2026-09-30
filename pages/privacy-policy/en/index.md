@@ -52,7 +52,9 @@ Because the Operator does not collect data such as your assets or balances, it d
 
 ## 8. Information received through inquiries
 
-If you contact us, your name, email address, and the content of your inquiry are used only to respond to your inquiry and are not provided to third parties except as required by law.
+Your name, email address, type and content of inquiry, and device and app version sent through the contact form are used only to respond to your inquiry and to improve the App, and are not provided to third parties except as required by law.
+
+To prevent spam, the sender's IP address is converted into a form that cannot be restored and kept for up to one hour to check the number of submissions.
 
 ## 9. Changes to this Policy
 
@@ -60,6 +62,6 @@ The Operator may change this Policy as necessary. When doing so, the Operator wi
 
 ## 10. Contact
 
-For inquiries about this Policy, please contact us from **Settings** → **Help** → **Contact** in the App.
+For inquiries about this Policy, please use our [contact form](../contact/en).
 
 Established: September 27, 2026

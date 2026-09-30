@@ -29,13 +29,15 @@ assett-manual/
 │   │   └── faq/index.md
 │   ├── en/                    … 英語版（ja/ と同じ構成・同じフォルダ名）
 │   ├── privacy-policy/        … プライバシーポリシー（日本語）→ /privacy-policy、en/ に英語版
+│   ├── contact/               … お問い合わせ（日本語）→ /contact、en/ に英語版（フォームは Contact Form プラグインが表示）
 │   └── terms-of-service/      … 利用規約（日本語）→ /terms-of-service、en/ に英語版
 ├── images/                    … スクリーンショット（Bludit には取り込まれず、GitHub から直接表示）
 │   ├── README.md              … 撮影リスト
 │   ├── ja/
 │   └── en/
 └── bludit/plugins/
-    └── language-redirect/     … トップページをブラウザの言語に合わせて /ja・/en へ転送するプラグイン
+    ├── language-redirect/     … トップページをブラウザの言語に合わせて /ja・/en へ転送するプラグイン
+    └── contact-form/          … お問い合わせフォームを表示し、送信内容をメールで届けるプラグイン
 ```
 
 ## Bludit で読み込まれるしくみ
@@ -77,6 +79,7 @@ Remote Content プラグインは、指定した zip ファイルをダウンロ
    以後、マニュアルを更新したら Webhook のURL（`https://サイト/<Webhook の文字列>`）にアクセスすると再取り込みされます。
    GitHub の Webhook（リポジトリの Settings → Webhooks）にこのURLを登録すると、`main` へのプッシュ時に自動で更新されます。
 5. トップページ（`https://サイト/`）を開いた人をブラウザの言語に合わせて `/ja`・`/en` へ転送するには、[Language Redirect プラグイン](bludit/plugins/language-redirect/README.md) をサーバーに設置します。
+6. お問い合わせフォームを使うには、[Contact Form プラグイン](bludit/plugins/contact-form/README.md) をサーバーに設置し、受信用メールアドレスを設定します。
 
 > **ご注意**
 > 取り込みを実行すると、**Bludit に登録されている既存のページとアップロード済みの画像はすべて削除**され、このリポジトリの内容に置き換わります。

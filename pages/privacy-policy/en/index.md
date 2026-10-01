@@ -12,6 +12,8 @@ This Policy is a translation of the Japanese version. If there is any discrepanc
 
 The App is designed so that the data you enter is managed only on your device. The Operator does not collect data such as your assets or balances.
 
+However, because the App displays advertisements, information needed to deliver them may be sent to an advertising provider (Google LLC) (see "6-2. Advertising").
+
 ## 2. Data entered in the App
 
 - Data you register in the App, such as assets, balances, records, memos, goals, and settings, is stored only on your device.
@@ -31,6 +33,7 @@ To obtain exchange rates and gold and crypto prices, the App communicates with t
 
 - The App sends only the currencies whose rates it needs. It does not send data such as your assets or balances.
 - When communicating, information normally included in internet communication, such as your device's IP address, may be sent to these services. Such information is handled according to each service's own policies.
+- For communication related to advertising, see "6-2. Advertising".
 
 ## 4. Purchasing paid services (Premium)
 
@@ -42,13 +45,32 @@ To obtain exchange rates and gold and crypto prices, the App communicates with t
 
 Files created with **Export Data** in the App are saved to the destination you choose (services such as iCloud Drive, or other apps). They are handled there according to each service's own policies.
 
+If you set a password when exporting, the file is saved encrypted. The password is not sent anywhere, including to the Operator, and the file cannot be restored if you forget it.
+
 ## 6. Analytics, advertising, and tracking
 
-The App does not use analytics tools, advertising, or tracking to follow users.
+- The App does not use analytics tools.
+- The App uses the advertising service described in "6-2. Advertising" below.
+- The App does not ask for iOS "Allow Tracking" permission. Therefore, it does not use the iOS advertising identifier (IDFA) to track you across apps and websites owned by other companies.
+
+## 6-2. Advertising
+
+The App displays banner advertisements at the bottom of the screen using Google AdMob, an advertising service provided by Google LLC. Advertisements are not displayed while you are using Premium.
+
+- To deliver advertisements, information such as your IP address, device type and OS version, app information, and advertisement impressions and taps may be sent to Google.
+- Google uses this information to deliver advertisements, measure their effectiveness, and prevent fraudulent activity.
+- Data you enter in the App, such as assets and balances, is not sent to Google or any other advertising provider.
+- Users in the European Economic Area (EEA), the UK, Switzerland, and similar regions are asked for consent to the use of information for advertising. If consent is not given, advertisements are displayed in a manner consistent with that choice, or not displayed.
+- For how Google handles information, see [Google's Privacy Policy](https://policies.google.com/privacy) and [How Google uses information from sites or apps that use its services](https://policies.google.com/technologies/ads).
+
+### How to limit the use of information for advertising
+
+- iPhone: If you turn off "Allow Apps to Request to Track" under Settings → Privacy & Security → Tracking, apps cannot use your advertising identifier.
+- You can also turn off personalized ads in [Google's My Ad Center](https://myadcenter.google.com/).
 
 ## 7. Disclosure to third parties
 
-Because the Operator does not collect data such as your assets or balances, it does not provide such data to third parties.
+Because the Operator does not collect data such as your assets or balances, it does not provide such data to third parties. Note that the information described in "6-2. Advertising" may be sent to Google to deliver advertisements.
 
 ## 8. Information received through inquiries
 

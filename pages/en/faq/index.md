@@ -28,7 +28,7 @@ Yes. Set the asset's currency to, for example, US Dollar. You can record amounts
 
 ### Q. Can I record gold or crypto?
 
-Yes. You can choose Gold (g / ozt) as a currency. Bitcoin and Ethereum are Premium features. Record the quantity, and it is converted using the latest market price.
+Yes. You can choose Gold (g / ozt), Bitcoin, and Ethereum as currencies. Record the quantity, and it is converted using the latest market price.
 
 ### Q. Can I include points or miles in my assets?
 
@@ -36,7 +36,7 @@ Yes. Choose **Points** or **Miles** as the asset's currency. They are initially 
 
 ### Q. Can I record why a balance changed?
 
-If you attach subcategories such as **Salary** or **Valuation** to your records, the **Change factors** view in the chart totals what caused the changes (Premium feature).
+If you attach subcategories such as **Salary** or **Valuation** to your records, the **Change factors** view in the chart totals what caused the changes.
 → [Viewing Trends in Charts](chart)
 
 ### Q. I entered a record incorrectly.
@@ -77,12 +77,17 @@ You can change the decimal places, rounding, and number format under **Settings*
 
 ### Q. Can I use the app for free?
 
-Yes. The basic features, such as up to 10 assets, the line chart, periods up to 1 year, and local backup, are free.
+Yes. Most features, including unlimited assets, all chart types, periods up to 5 years, custom currencies, and local backup, are free. The free version shows ads at the bottom of the screen.
 → [Premium](premium)
 
 ### Q. What happens to my data if I cancel Premium?
 
-Your recorded data is kept. Assets you registered beyond the free limit (10 assets) can still be used, but you can't add new ones.
+Your recorded data is kept. Premium features such as All and Custom chart periods, auto backup, and import/export become unavailable, and ads are shown again.
+
+### Q. Can I turn off ads?
+
+Ads are not shown while you subscribe to Premium.
+→ [Premium](premium)
 
 ## Data
 
@@ -90,6 +95,7 @@ Your recorded data is kept. Assets you registered beyond the free limit (10 asse
 
 All data is stored on your device. It is not stored on any external server.
 (The app accesses rate information on the internet to fetch exchange rates.)
+To deliver the ads shown in the free version, information such as your device type may be sent to an advertising provider (Google), but data such as your assets and balances is never sent. For details, see the [Privacy Policy](../privacy-policy/en).
 
 ### Q. Do I need an account?
 
@@ -99,7 +105,7 @@ No.
 
 1. On your old device, tap **Settings** → **Backup** → **Export Data**, then use **Save to Files** to save the file to iCloud Drive.
 2. Install the app on your new device.
-3. On your new device, tap **Settings** → **Backup** → **Import Data**, choose the saved file, and restore it.
+3. On your new device, tap **Settings** → **Backup** → **Import Data**, choose the saved file, and restore it. If you exported the file with encryption, enter the password you set when exporting.
 4. If you subscribe to Premium, tap **Settings** → **Upgrade** → **Restore purchases**.
 
 The default currency, display format, date format, theme, and dashboard panel layout are not included in backups, so set them up again as needed.

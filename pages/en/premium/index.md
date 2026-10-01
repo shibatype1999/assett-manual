@@ -2,7 +2,7 @@
 <!-- position: 11 -->
 <!-- description: The features available with Premium (subscription), and how to subscribe and cancel. -->
 
-Asset Manager is free to use. Subscribe to Premium to use every feature without limits.
+Asset Manager is free to use. Subscribe to Premium to remove ads and unlock all-time charts and advanced backup features.
 
 ![Upgrade screen](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/upgrade.png)
 
@@ -12,12 +12,12 @@ In addition to everything in the free version, you get the following.
 
 | Feature | Free | Premium |
 | --- | --- | --- |
-| Number of assets | Up to 10 | Unlimited |
-| Chart types | Line chart | Line, stacked, bar, and change factors |
-| Chart periods | 1M, 3M, 6M, 1Y | Also 3 years, 5 years, All, and Custom |
-| Dashboard "Total assets trend" periods | Half year, 1Y | Also 3 years, 5 years, and All |
+| Ads | Banner ads at the bottom of the screen | No ads |
+| Chart periods | 1M, 3M, 6M, 1Y, 3 years, 5 years | Also All and Custom |
+| Dashboard "Total assets trend" periods | Half year, 1Y, 3 years, 5 years | Also All |
 | Backup | Local backup, restore from the latest | Auto backup, restore from the list, import/export |
-| Currencies | Standard currencies, points, miles | Add custom currencies, use Bitcoin and Ethereum |
+
+The number of assets, all chart types (line, stacked, bar, and change factors), custom currencies, and Bitcoin and Ethereum are available without limits in the free version.
 
 Premium features are marked with a lock icon in the app. Tapping one shows a message; tap **View plans** to open the Upgrade screen.
 
@@ -43,7 +43,7 @@ When "Welcome to Premium!" appears, you're done. If the purchase is awaiting app
 Cancel or change your plan in your App Store account settings.
 While you are using Premium, you can open them with **Manage subscription** on the Upgrade screen.
 
-After you cancel or your subscription expires, the app returns to the free version. Your recorded data is kept.
+After you cancel or your subscription expires, the app returns to the free version and ads are shown again. Your recorded data is kept.
 
 ## Restoring purchases
 

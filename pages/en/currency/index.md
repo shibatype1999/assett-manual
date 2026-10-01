@@ -14,7 +14,7 @@ Currency settings are under **Settings** → **Currency & Rates**.
 | --- | --- |
 | Fiat currencies | Japanese Yen, US Dollar, Euro, British Pound, Australian Dollar, Canadian Dollar, Swiss Franc, Chinese Yuan, Hong Kong Dollar, South Korean Won, Indian Rupee, Indonesian Rupiah, Brazilian Real, Singapore Dollar, New Zealand Dollar, Qatari Riyal, Saudi Riyal, UAE Dirham, Malaysian Ringgit, Thai Baht, Turkish Lira, Russian Ruble |
 | Gold | Gold (g), Gold (ozt) |
-| Crypto | Bitcoin, Ethereum (Premium feature) |
+| Crypto | Bitcoin, Ethereum |
 | Custom currencies | Points and Miles (registered from the start), plus currencies you add yourself |
 
 Gold, crypto, points, and miles are recorded as a **quantity** (e.g. 10 g, 0.5 BTC, 3,000 pt) rather than a monetary amount.
@@ -61,7 +61,7 @@ Currencies that are not in the list, as well as points and miles, are handled as
 - **Points** and **Miles** are registered from the start. They cannot be deleted, but you can change their name, unit, and rate. They are initially converted as 1 pt = 1 JPY and 1 mi = 1 JPY, so change them to match the value you assign to them.
 - Custom currencies can be chosen as an asset's currency.
 
-### Adding a custom currency (Premium feature)
+### Adding a custom currency
 
 1. On the **Currency & Rates** screen, tap **Add Custom Currency**.
 2. Fill in the following:

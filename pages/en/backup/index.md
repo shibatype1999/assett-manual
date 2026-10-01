@@ -83,16 +83,25 @@ With **Keep all**, storage use keeps growing, so delete unneeded backups from th
 ## Export Data (Premium feature)
 
 Exports your data as a single file (`asset-YYYYMMDD-HHMMSS.json`) that you can save to iCloud Drive and other services.
+You can also set a password to export the file encrypted.
 
 ### On iOS
 
 1. Tap **Export Data**.
-2. The share sheet opens.
-3. Choose where to save.
+2. Choose how to export.
+   - **Export encrypted** – Only people who know the password can restore it (recommended).
+   - **Export without encryption** – Anyone can read the file contents.
+3. If you chose **Export encrypted**, enter the same password (at least 4 characters) in **Password** and **Enter again**, then tap **Encrypt and export**.
+4. The share sheet opens.
+5. Choose where to save.
    - **To save to iCloud Drive** – Tap **Save to Files**, choose a folder in **iCloud Drive**, then tap **Save**.
    - **To save to another app** – Choose an app such as Google Drive and follow the on-screen instructions.
 
 ![Share sheet](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/backup-share-sheet.png)
+
+> **Caution**
+> - The password is not saved in the app and is not sent to the operator. **If you forget the password, the encrypted file cannot be restored.**
+> - A file exported without encryption contains your asset names and balances as they are. Be careful where you save or share it.
 
 ## Import Data (Premium feature)
 
@@ -102,12 +111,14 @@ Restores your data from an exported file.
 
 1. Tap **Import Data**.
 2. The file picker opens. Choose the exported file (`asset-….json`).
-3. Tap **Restore** in the confirmation dialog.
-4. When "Restored successfully" appears, you're done.
+3. If the file is encrypted, "This file is encrypted" appears. Enter the password you set when exporting.
+4. Tap **Restore** in the confirmation dialog.
+5. When "Restored successfully" appears, you're done.
 
 > **Caution**
 > - Importing overwrites your current data.
 > - Only files exported from this app can be imported. If a file can't be read, "Restore failed" is shown.
+> - If the password is wrong, "Wrong password" is shown.
 
 ## What is included in a backup
 

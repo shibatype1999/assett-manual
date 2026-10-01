@@ -32,7 +32,7 @@ Initially, **Total Assets**, **Asset Breakdown**, and **Totals by asset** are sh
 
 > **Notes**
 > - "Month-over-month" compares with total assets on the same day one month earlier.
-> - **3 years**, **5 years**, and **All** in **Total assets trend** are Premium features (→ [Premium](premium)).
+> - **All** in **Total assets trend** is a Premium feature (→ [Premium](premium)).
 
 ### Switching between by asset and by category
 

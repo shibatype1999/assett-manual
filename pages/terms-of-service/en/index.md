@@ -67,6 +67,13 @@ The Operator may change the content of the App, or suspend or terminate the App,
 
 Copyrights and other intellectual property rights relating to the App belong to the Operator or the rightful owners.
 
+## Article 9-2 (Advertising)
+
+1. Advertisements by the Operator or third parties (including advertising providers such as Google LLC) may be displayed in the App.
+2. The Operator does not guarantee the content of advertisements, websites or apps linked from advertisements, or advertisers' products or services. The Operator is not liable for any transaction or dispute between the User and an advertiser, except as provided in Article 11, paragraph 1.
+3. Advertisements are not displayed in the App while the User is using Premium.
+4. Information handled in connection with advertising is as set out in the [Privacy Policy](../privacy-policy/en).
+
 ## Article 10 (No warranty and disclaimer)
 
 1. The Operator does not guarantee that the App will be fit for any particular purpose of the User, that it will be free of defects, or that it will be available without interruption.

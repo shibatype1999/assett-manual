@@ -19,7 +19,7 @@ With **Custom**, set the start and end dates with the scroll wheels. The selecte
 
 > **Notes**
 > - If you use categories, switch with **By asset** / **By category** at the top. With **By category**, the **Asset** frame becomes **Category** and trends are shown per category (→ [Grouping with Categories](categories)).
-> - **3 years**, **5 years**, **All**, and **Custom** are Premium features (marked with a lock icon).
+> - **All** and **Custom** are Premium features (marked with a lock icon).
 
 ## Switching chart types
 
@@ -33,7 +33,6 @@ Use the buttons below the chart to switch chart types.
 | Change factors | Groups changes in balance by the subcategories attached to records (see below). |
 
 - **Stacked Chart** and **Bar Chart** are available only when **All** is selected.
-- Chart types other than **Line Chart** are Premium features.
 - Tap the chart to see the amount at that point.
 - In **Bar Chart** and **Change factors**, tap a legend item to show or hide it in the chart. If there are many legend items, only the top ones are shown and the rest open with the + button.
 

@@ -29,8 +29,6 @@ Manage assets on the **Asset list** screen. Open it with the pencil icon at the 
 > **Notes**
 > - If you choose a currency other than your default currency, you can check and change its rate under **Settings** → **Currency & Rates** (→ [Currencies and Exchange Rates](currency)).
 > - Manage loans and unpaid credit card balances in an asset with **Treat as Liability** turned on, so they are subtracted from your total assets.
-> - The free version allows up to 10 assets. With Premium, you can add unlimited assets (→ [Premium](premium)).
-> - Choosing Bitcoin or Ethereum as the currency is a Premium feature.
 
 ## Editing an asset
 

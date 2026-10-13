@@ -16,7 +16,7 @@ However, because the App displays advertisements, information needed to deliver 
 
 ## 2. Data entered in the App
 
-- Data you register in the App, such as assets, balances, records, memos, goals, and settings, is stored only on your device.
+- Data you register in the App, such as assets, balances, records, memos, goals, and settings (including data imported from screenshots or CSV files), is stored only on your device.
 - This data is not sent to the Operator's servers or anywhere else.
 - No account is required to use the App, and the App does not ask for personal information such as your name or email address.
 - Deleting the App deletes the data stored on your device (including backups inside the App).
@@ -28,11 +28,13 @@ To obtain exchange rates and gold and crypto prices, the App communicates with t
 | Service | Information obtained |
 | --- | --- |
 | Frankfurter (api.frankfurter.app) | Exchange rates |
+| ExchangeRate-API (open.er-api.com) | Exchange rates (for currencies not available from Frankfurter) |
 | CoinGecko (api.coingecko.com) | Crypto prices |
 | xaus.com | Gold prices |
 
-- The App sends only the currencies whose rates it needs. It does not send data such as your assets or balances.
+- The App sends only the currencies and periods whose rates it needs. It does not send data such as your assets or balances.
 - When communicating, information normally included in internet communication, such as your device's IP address, may be sent to these services. Such information is handled according to each service's own policies.
+- Some historical exchange rates and prices are bundled in the App, based on published statistics (such as those of the Federal Reserve Board, the European Central Bank, and the World Bank). Using them involves no communication.
 - For communication related to advertising, see "6-2. Advertising".
 
 ## 4. Purchasing paid services (Premium)
@@ -47,26 +49,43 @@ Files created with **Export Data** in the App are saved to the destination you c
 
 If you set a password when exporting, the file is saved encrypted. The password is not sent anywhere, including to the Operator, and the file cannot be restored if you forget it.
 
+## 5-2. Importing from screenshots and CSV files
+
+With **Data Import** in the App, you can read asset names and amounts from screenshots of balance screens in banking, brokerage, and other apps, or from CSV files, and register them.
+
+- When you import from screenshots, the App asks for permission to access your photo library. The App reads only the images you select.
+- Text in images is read on your device using an iOS feature (Vision). The images and the text read from them are not sent to the Operator or anywhere else.
+- After the import, the imported screenshots are deleted from your photo library. iOS shows a confirmation before deleting them. Deleted images can be recovered from **Recently Deleted** in the Photos app for 30 days.
+- CSV files are read on your device, and only the files you select are read.
+- You can change photo library access at any time in Settings → Privacy & Security → Photos on your iPhone.
+
+## 5-3. AI features (Apple Intelligence)
+
+The App uses Apple Intelligence by Apple Inc. (an on-device model) to suggest asset settings, register assets in bulk, organize categories, and write texts such as reviews and advice.
+
+- This processing takes place only on your device, and data such as your assets and balances is not sent to the Operator or anywhere else.
+- On devices where Apple Intelligence is not available, the App creates alternative content using its own calculations and rules.
+- You can turn off the AI features in the App's settings.
+
 ## 6. Analytics, advertising, and tracking
 
 - The App does not use analytics tools.
 - The App uses the advertising service described in "6-2. Advertising" below.
-- The App does not ask for iOS "Allow Tracking" permission. Therefore, it does not use the iOS advertising identifier (IDFA) to track you across apps and websites owned by other companies.
+- The App does not ask for iOS "Allow Tracking" permission. It does not use the iOS advertising identifier (IDFA) to track you across apps and websites owned by other companies.
 
 ## 6-2. Advertising
 
-The App displays banner advertisements at the bottom of the screen using Google AdMob, an advertising service provided by Google LLC. Advertisements are not displayed while you are using Premium.
+The App displays banner advertisements at the bottom of the screen using Google AdMob, an advertising service provided by Google LLC. The advertisements are not based on your interests (non-personalized ads). Advertisements are not displayed while you are using Premium.
 
-- To deliver advertisements, information such as your IP address, device type and OS version, app information, and advertisement impressions and taps may be sent to Google.
-- Google uses this information to deliver advertisements, measure their effectiveness, and prevent fraudulent activity.
+- To deliver advertisements, information such as your IP address (and the approximate region estimated from it), device type and OS version, app information, and advertisement impressions and taps may be sent to Google.
+- Google uses this information to deliver advertisements, limit how often they are shown, measure their effectiveness, and prevent fraudulent activity. It is not used to select advertisements based on your interests.
 - Data you enter in the App, such as assets and balances, is not sent to Google or any other advertising provider.
 - Users in the European Economic Area (EEA), the UK, Switzerland, and similar regions are asked for consent to the use of information for advertising. If consent is not given, advertisements are displayed in a manner consistent with that choice, or not displayed.
 - For how Google handles information, see [Google's Privacy Policy](https://policies.google.com/privacy) and [How Google uses information from sites or apps that use its services](https://policies.google.com/technologies/ads).
 
-### How to limit the use of information for advertising
+### How to stop advertisements
 
-- iPhone: If you turn off "Allow Apps to Request to Track" under Settings → Privacy & Security → Tracking, apps cannot use your advertising identifier.
-- You can also turn off personalized ads in [Google's My Ad Center](https://myadcenter.google.com/).
+While you are using Premium, no advertisements are displayed.
 
 ## 7. Disclosure to third parties
 

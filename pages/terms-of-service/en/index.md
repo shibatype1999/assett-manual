@@ -24,7 +24,7 @@ These Terms are a translation of the Japanese version. If there is any discrepan
 ## Article 3 (Conditions of use)
 
 1. The User may use the App for the purpose of managing their personal assets in accordance with these Terms.
-2. The App is a tool for recording, totaling, and displaying information such as asset balances entered by the User. It does not solicit the purchase or sale of financial products, nor does it provide investment, tax, or other advice.
+2. The App is a tool for recording, totaling, and displaying information such as asset balances entered by the User. It does not solicit the purchase or sale of financial products, nor does it provide investment, tax, or other advice. The same applies to texts such as reviews and advice shown in the App (including those created by AI features).
 3. Please use the App on a device that meets the requirements (such as supported OS versions) shown on the App's page in the App Store or Google Play. Operation on devices that do not meet the requirements, or on devices whose OS restrictions have been removed by jailbreaking, rooting, or similar methods, is not guaranteed.
 
 ## Article 4 (Paid services)
@@ -47,7 +47,8 @@ These Terms are a translation of the Japanese version. If there is any discrepan
 1. The App's data is stored on the User's device. The User is responsible for managing and backing up their data.
 2. If data is lost due to device failure or loss, deletion of the App, OS updates, or any other reason, the Operator cannot restore it.
 3. The Operator handles User information appropriately in accordance with the [Privacy Policy](../privacy-policy/en).
-4. The App does not access device features or information such as location, camera, microphone, contacts, or photos. Backup files are selected or shared only when the User performs that action.
+4. The App does not access device features or information such as location, camera, microphone, or contacts. The App accesses the photo library, with the User's permission, only when the User imports data from screenshots. Files for backup or import are selected or shared only when the User performs that action.
+5. When the User imports data from screenshots, the App deletes the imported screenshots from the photo library after iOS asks for confirmation. The User is responsible for saving or recovering any images still needed after deletion.
 
 ## Article 7 (Prohibited acts)
 
@@ -77,10 +78,11 @@ Copyrights and other intellectual property rights relating to the App belong to 
 ## Article 10 (No warranty and disclaimer)
 
 1. The Operator does not guarantee that the App will be fit for any particular purpose of the User, that it will be free of defects, or that it will be available without interruption.
-2. Exchange rates, market prices, converted amounts, charts, estimated achievement dates, and other information displayed in the App are reference values calculated from information obtained from external services and information entered by the User. The Operator does not guarantee the accuracy, completeness, or timeliness of such information.
-3. All internet data charges incurred in connection with the use of the App (including, but not limited to, fetching exchange rates and market prices, downloading and updating the App, purchasing and verifying Premium, and viewing pages such as Help and Contact) shall be borne by the User.
-4. Even if unintended data retransmission or additional communication occurs due to failures of the App, external services, or communication lines, or due to communication errors, the Operator will not compensate for data charges, except as provided in Article 11, paragraph 1.
-5. Data communication abroad (roaming) can be expensive. Data charges incurred when using the App abroad shall also be borne entirely by the User. The User is responsible for checking their mobile data and roaming settings.
+2. Exchange rates, market prices, converted amounts, charts, estimated achievement dates, and other information displayed in the App are reference values calculated from information obtained from external services, information bundled in the App, and information entered by the User. The Operator does not guarantee the accuracy, completeness, or timeliness of such information.
+3. Suggestions and texts created by AI features, and asset names and amounts read from screenshots or CSV files, may contain errors. The User is responsible for checking them before registering or using them.
+4. All internet data charges incurred in connection with the use of the App (including, but not limited to, fetching exchange rates and market prices, downloading and updating the App, purchasing and verifying Premium, and viewing pages such as Help and Contact) shall be borne by the User.
+5. Even if unintended data retransmission or additional communication occurs due to failures of the App, external services, or communication lines, or due to communication errors, the Operator will not compensate for data charges, except as provided in Article 11, paragraph 1.
+6. Data communication abroad (roaming) can be expensive. Data charges incurred when using the App abroad shall also be borne entirely by the User. The User is responsible for checking their mobile data and roaming settings.
 
 ## Article 11 (Limitation of liability)
 

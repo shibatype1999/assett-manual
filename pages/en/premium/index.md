@@ -1,8 +1,8 @@
 # Premium
-<!-- position: 11 -->
+<!-- position: 13 -->
 <!-- description: The features available with Premium (subscription), and how to subscribe and cancel. -->
 
-Asset Manager is free to use. Subscribe to Premium to remove ads and unlock all-time charts and advanced backup features.
+Asset Manager is free to use. Subscribe to Premium to remove ads and unlock 5-year and all-time charts and advanced backup features.
 
 ![Upgrade screen](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/upgrade.png)
 
@@ -13,11 +13,11 @@ In addition to everything in the free version, you get the following.
 | Feature | Free | Premium |
 | --- | --- | --- |
 | Ads | Banner ads at the bottom of the screen | No ads |
-| Chart periods | 1M, 3M, 6M, 1Y, 3 years, 5 years | Also All and Custom |
-| Dashboard "Total assets trend" periods | Half year, 1Y, 3 years, 5 years | Also All |
+| Chart periods | 1M, 3M, 6M, 1Y, 3Y | Also 5Y, All, and Custom |
+| Dashboard "Total assets trend" periods | 6M, 1Y, 3Y | Also 5Y and All |
 | Backup | Local backup, restore from the latest | Auto backup, restore from the list, import/export |
 
-The number of assets, all chart types (line, stacked, bar, and change factors), custom currencies, and Bitcoin and Ethereum are available without limits in the free version.
+The number of assets, all chart types (line, stacked, bar, and change factors), custom currencies, Bitcoin and Ethereum, batch entry, data import, AI features, skins, and passcode lock are available without limits in the free version.
 
 Premium features are marked with a lock icon in the app. Tapping one shows a message; tap **View plans** to open the Upgrade screen.
 

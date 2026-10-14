@@ -5,7 +5,7 @@
 All of your data is stored on your device.
 We recommend backing up regularly in case you change devices or something goes wrong.
 
-Backups are under **Settings** → **Backup**.
+Backups are under **Settings** → **Backup & Restore**.
 
 ![Backup screen](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/backup.png)
 
@@ -124,13 +124,14 @@ Restores your data from an exported file.
 
 | Included | Not included |
 | --- | --- |
-| Assets | Default currency |
-| Records (balances, dates and times, subcategories, memos) | Display format and date format |
-| Categories | Theme and theme color |
+| Assets (including whether they are included in totals) | Default currency |
+| Records (balances, dates and times, subcategories, memos, exchange rates) | Display format and date format |
+| Categories | Skin, theme, and theme color |
 | Subcategories | Dashboard panel layout |
-| Asset goal | Auto backup settings |
-| Display language | |
-| Custom currencies | |
-| Currency rate settings | |
+| Asset goal (goal amount) | The asset goal's target year |
+| Batch entries | Gold valuation settings |
+| Display language | Auto backup settings |
+| Custom currencies | Passcode lock |
+| Currency rate settings | AI feature setting |
 
 After restoring, set up the settings that are not included again as needed.

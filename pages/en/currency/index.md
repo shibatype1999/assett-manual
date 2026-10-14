@@ -12,7 +12,7 @@ Currency settings are under **Settings** → **Currency & Rates**.
 
 | Type | Currencies |
 | --- | --- |
-| Fiat currencies | Japanese Yen, US Dollar, Euro, British Pound, Australian Dollar, Canadian Dollar, Swiss Franc, Chinese Yuan, Hong Kong Dollar, South Korean Won, Indian Rupee, Indonesian Rupiah, Brazilian Real, Singapore Dollar, New Zealand Dollar, Qatari Riyal, Saudi Riyal, UAE Dirham, Malaysian Ringgit, Thai Baht, Turkish Lira, Russian Ruble |
+| Fiat currencies | Japanese Yen, US Dollar, Euro, British Pound, Australian Dollar, Canadian Dollar, Swiss Franc, Chinese Yuan, Hong Kong Dollar, Taiwan Dollar, South Korean Won, Indian Rupee, Indonesian Rupiah, Brazilian Real, Singapore Dollar, New Zealand Dollar, Qatari Riyal, Saudi Riyal, UAE Dirham, Malaysian Ringgit, Thai Baht, Turkish Lira, Russian Ruble |
 | Gold | Gold (g), Gold (ozt) |
 | Crypto | Bitcoin, Ethereum |
 | Custom currencies | Points and Miles (registered from the start), plus currencies you add yourself |
@@ -29,15 +29,26 @@ The default currency is used to show your total assets, charts, and asset goal. 
 
 If you choose **Follow system setting**, a currency based on your device's language is used (for example, US Dollar for English and Japanese Yen for Japanese).
 
+> **Caution**
+> If you change the default currency when you already have records, a confirmation appears.
+> The exchange rates saved with each record (see below) are for the previous default currency, so they can no longer be used. Past totals and charts are recalculated with the historical rates available, so they may differ from before or may not be shown correctly.
+
 ## Automatic exchange rates
 
 If any asset uses a currency other than your default currency, the app fetches the latest rates from the internet to convert amounts.
 
 - Rates are fetched automatically when the app starts.
 - They are also fetched when you pull down on the **Dashboard**.
-- Rates can be fetched **up to 2 times per day**. When the limit is reached, "Reached today's limit (up to 2 times per day)" is shown.
+- Automatic fetching happens **up to 2 times per day**. When the limit is reached, "Reached today's limit (up to 2 times per day)" is shown.
+- Tap **Refresh rates** to the right of **Currency Rates** on the **Currency & Rates** screen to fetch the rates of all the currencies you use again.
 - Rates for custom currencies (including points and miles) are not fetched automatically. Set them manually.
 - If the app can't connect to the internet, it uses the rates it fetched last time or built-in reference rates.
+
+### Historical rates
+
+When charts and asset composition show amounts for past dates, they are converted with **the rate on that date**.
+Historical rates come from data bundled in the app, based on published statistics, and from rates fetched for the periods needed. The sources are shown at the bottom of the **Currency & Rates** screen.
+For currencies and periods without historical rates, the exchange rate saved with each record or the current rate is used.
 
 Add the **Exchange rates** panel to the dashboard to see the rates of the currencies you use and the last update time (→ [Dashboard](dashboard)).
 
@@ -50,9 +61,29 @@ The **Currency Rates** section of the **Currency & Rates** screen lists the non-
 1. In the field labeled like "1 USD → JPY", enter how much one unit is worth in your default currency.
 2. Tap ✓ on the right to save.
 
-Tap the ⟳ button next to the field to fetch the latest rate for that currency into the field (this counts toward the limit of 2 times per day). If fetching fails, enter the rate manually.
+To go back to the latest rates, tap **Refresh rates** to the right of the heading. If fetching fails, enter the rate manually.
 
 Set rates for custom currencies the same way in the **Custom Currency Rates** section below.
+
+## Exchange rate for each record
+
+When you record a balance for an asset in a foreign currency or the like, the record screen shows an **Exchange rate** field filled with **the rate on the record date**.
+
+- If you change it, for example to the rate you actually exchanged at, that rate is used **only to convert that record on its date**. It doesn't affect your **Currency & Rates** settings or conversions on other dates.
+- Your current total assets are converted with current rates, not with the rates saved with records.
+
+→ [Recording Balances](recording)
+
+## Gold valuation
+
+If you have gold (g or ozt) assets, **Gold valuation** appears below **Currency Rates**. The gold rate is the international spot price; use these settings to bring it closer to dealer prices, for example.
+
+| Item | Description |
+| --- | --- |
+| Include Japanese consumption tax (10%) | When on, gold is valued at tax-inclusive prices, as Japanese dealers quote them. |
+| Markup | Add dealer premiums or fees (spot price + n%). Tap ✓ on the right to save. |
+
+The price actually used is shown, for example "Price used: 1 g = … (spot × …)".
 
 ## Custom currencies
 
@@ -79,10 +110,10 @@ Currencies that are not in the list, as well as points and miles, are handled as
 
 - **Edit** – Tap a row in the list.
 - **Reorder** – Press and hold the **≡** handle on the right, then drag it up or down.
-- **Delete** – Tap the pencil icon to the right of the **Custom Currencies** heading, then tap the trash icon.
+- **Delete** – Tap the pencil icon to the right of the **Custom Currencies** heading, tap the trash icon, then tap **Delete** in the confirmation dialog.
 
 > **Caution**
-> Custom currencies are deleted immediately without confirmation. If you delete a custom currency that is in use, amounts in that asset may no longer be converted correctly.
+> A custom currency used by an asset can't be deleted. If you try, the names of the assets using it are shown. Change the currency of those assets first.
 
 ## If "Some currency rates could not be fetched and are not included in the total" appears
 

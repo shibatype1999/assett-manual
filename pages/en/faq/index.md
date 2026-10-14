@@ -1,5 +1,5 @@
 # FAQ
-<!-- position: 12 -->
+<!-- position: 14 -->
 <!-- description: Frequently asked questions about Asset Manager. -->
 
 ## Using the app
@@ -39,9 +39,29 @@ Yes. Choose **Points** or **Miles** as the asset's currency. They are initially 
 If you attach subcategories such as **Salary** or **Valuation** to your records, the **Change factors** view in the chart totals what caused the changes.
 → [Viewing Trends in Charts](chart)
 
+### Q. I want to record the same assets together every month.
+
+Create a batch entry on the **Batch** tab of the **Input** tab. Then just choose the date and type an amount for each asset to record them all at once. **Fill blanks with last amounts** makes it easy to enter assets whose balance hasn't changed.
+→ [Recording Balances](recording)
+
+### Q. I want to add a record for a past date.
+
+Choose the date on the **Calendar** tab of the **Input** tab and tap **Add a record on this day**. You can also change the **Date** on Quick entry or the **Add Record** screen.
+→ [Recording Balances](recording)
+
+### Q. Can I move data from another budgeting app or Excel?
+
+Yes. You can import assets and records in bulk from screenshots of banking or brokerage apps, or from CSV files exported from Excel, Numbers, or budgeting apps. With CSV, you can move past records too.
+→ [Data Import (Screenshots and CSV)](data-import)
+
+### Q. I want to keep a closed account's records but leave it out of my total assets.
+
+On the **Asset list** screen, turn off the switch (**Include in totals**) on the right of that asset. Its records are kept, and it is left out of totals.
+→ [Managing Assets](assets)
+
 ### Q. I entered a record incorrectly.
 
-Tap the asset to open its record list, then tap the incorrect record to edit it.
+On the **By asset** tab of the **Input** tab, tap the asset to open its record list, or choose the date on the **Calendar** tab, then tap the incorrect record to edit it.
 → [Recording Balances](recording)
 
 ## Display
@@ -64,25 +84,47 @@ An asset uses a currency whose rate is unknown. Go to **Settings** → **Currenc
 Rates can be fetched up to 2 times per day. If you have reached the limit, please try again the next day.
 Also check that you are connected to the internet.
 
-### Q. Some assets don't appear in the pie chart or Asset Composition.
+### Q. Some assets don't appear in the pie chart or on the Allocation tab.
 
-The pie chart, treemap, and the Asset Composition table only show assets with a positive amount. Liability assets and assets with a balance of zero are not shown.
+The pie chart, treemap, and the table on the Allocation tab only show assets with a positive amount. Liability assets and assets with a balance of zero are not shown.
+
+### Q. I don't want others to see my total assets.
+
+Tap the eye icon at the top right of the **Total Assets** panel on the dashboard to hide the amount. To lock the app itself, set up **Settings** → **Passcode Lock**.
+→ [Dashboard](dashboard), [Settings](settings)
+
+### Q. I can't change **Theme** or **Theme Color**.
+
+Theme and theme color can be used only with the **Standard** skin. Choose **Standard** under **Settings** → **Skin**.
+→ [Settings](settings)
 
 ### Q. I want to change how numbers are formatted (separators, decimal point).
 
 You can change the decimal places, rounding, and number format under **Settings** → **Display Format**.
 → [Settings](settings)
 
+## AI features
+
+### Q. I can't use the AI features (Apple Intelligence).
+
+Apple Intelligence is available on supported devices with iOS 26 or later when Apple Intelligence is turned on in the device settings. On other devices, features such as adding several assets at once, organizing categories, and the review still work, using the app's own totals and rules instead.
+You can check whether it's available on your device under **Settings** → **AI features (Apple Intelligence)**.
+→ [AI Features](ai)
+
+### Q. Is my data sent anywhere when I use AI features?
+
+No. Apple Intelligence runs only on your device, and data such as your assets and balances is never sent anywhere.
+
 ## Premium
 
 ### Q. Can I use the app for free?
 
-Yes. Most features, including unlimited assets, all chart types, periods up to 5 years, custom currencies, and local backup, are free. The free version shows ads at the bottom of the screen.
+Yes. Most features, including unlimited assets, all chart types, periods up to 3 years, custom currencies, batch entry, data import, AI features, and local backup, are free. The free version shows ads at the bottom of the screen.
 → [Premium](premium)
 
 ### Q. What happens to my data if I cancel Premium?
 
-Your recorded data is kept. Premium features such as All and Custom chart periods, auto backup, and import/export become unavailable, and ads are shown again.
+Your recorded data is kept. Premium features such as 5Y, All, and Custom chart periods, auto backup, and import/export become unavailable, and ads are shown again.
 
 ### Q. Can I turn off ads?
 
@@ -103,12 +145,12 @@ No.
 
 ### Q. How do I move my data to a new device? (iOS)
 
-1. On your old device, tap **Settings** → **Backup** → **Export Data**, then use **Save to Files** to save the file to iCloud Drive.
+1. On your old device, tap **Settings** → **Backup & Restore** → **Export Data**, then use **Save to Files** to save the file to iCloud Drive.
 2. Install the app on your new device.
-3. On your new device, tap **Settings** → **Backup** → **Import Data**, choose the saved file, and restore it. If you exported the file with encryption, enter the password you set when exporting.
+3. On your new device, tap **Settings** → **Backup & Restore** → **Import Data**, choose the saved file, and restore it. If you exported the file with encryption, enter the password you set when exporting.
 4. If you subscribe to Premium, tap **Settings** → **Upgrade** → **Restore purchases**.
 
-The default currency, display format, date format, theme, and dashboard panel layout are not included in backups, so set them up again as needed.
+The default currency, display format, date format, skin and theme, dashboard panel layout, passcode lock, and some other settings are not included in backups, so set them up again as needed.
 Export and import are Premium features.
 → [Backing Up and Restoring Data](backup)
 
@@ -116,6 +158,16 @@ Export and import are Premium features.
 
 Deleting the app deletes all recorded data and local backups (including auto backups).
 Before deleting the app, save your data as a file with **Export Data**.
+
+### Q. I forgot my passcode.
+
+There is no way to recover the passcode. Deleting and reinstalling the app removes the passcode, but **also deletes all data and local backups on your device**. If you have a file saved with **Export Data**, you can import it after reinstalling to restore your data.
+→ [Backing Up and Restoring Data](backup)
+
+### Q. Screenshots I imported have disappeared from Photos.
+
+When you import from screenshots, the imported images are automatically deleted from Photos. Deleted images can be recovered from **Recently Deleted** in the Photos app for 30 days.
+→ [Data Import (Screenshots and CSV)](data-import)
 
 ### Q. I accidentally deleted an asset or record.
 

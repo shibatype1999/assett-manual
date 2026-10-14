@@ -13,13 +13,13 @@ All amounts in the charts are converted to your default currency. Scroll the who
 Swipe left or right inside the **Asset** and **Period** frames at the top. The item that stops in the **center frame** is selected. You can also tap a visible item to select it.
 
 - **Asset** – Choose **All** for your total assets, or an asset name for that asset only.
-- **Period** – Choose **1M**, **3M**, **6M**, **1Y**, **3 years**, **5 years**, **All**, or **Custom**.
+- **Period** – Choose **1M**, **3M**, **6M**, **1Y** (default), **3Y**, **5Y**, **All**, or **Custom**.
 
 With **Custom**, set the start and end dates with the scroll wheels. The selected range is shown above the chart; tap it to change the range.
 
 > **Notes**
 > - If you use categories, switch with **By asset** / **By category** at the top. With **By category**, the **Asset** frame becomes **Category** and trends are shown per category (→ [Grouping with Categories](categories)).
-> - **All** and **Custom** are Premium features (marked with a lock icon).
+> - **5Y**, **All**, and **Custom** are Premium features (marked with a lock icon).
 
 ## Switching chart types
 

@@ -29,6 +29,11 @@ You can do this in either of two ways.
 
 Each asset can belong to only one category. Assets already in another category show "Currently: …"; checking one moves it to this category.
 
+## Auto-organizing categories
+
+Tap the sparkle icon at the top right of **Settings** → **Categories** to get suggested categories for assets that aren't in any category. Check them and tap **Apply** to put them into categories all at once.
+→ [AI Features (Auto-organizing categories)](ai)
+
 ## Adding a category
 
 1. Under **Settings** → **Categories**, tap **Add category** at the bottom right.
@@ -57,7 +62,7 @@ On the following screens, use the **By asset** / **By category** buttons to swit
 | Screen | Where the buttons are |
 | --- | --- |
 | Chart | At the top of the screen |
-| Asset Composition | Below Total Assets |
+| Allocation | Below Total Assets |
 | Dashboard | At the top right of the **Asset Breakdown** and **Totals by asset** panels |
 
 With **By category**, assets in a category are shown as that category's total, and assets not in any category are shown individually.

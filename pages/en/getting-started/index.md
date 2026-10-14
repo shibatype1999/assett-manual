@@ -5,16 +5,17 @@
 ## Screen layout
 
 Use the tabs at the bottom of the screen to switch between five screens. The **Dashboard** is shown when you open the app.
+In the free version, ads are shown above the tabs (they are not shown with Premium).
 
 ![Tab bar](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/tab-bar.png)
 
 | Tab | What you can do |
 | --- | --- |
 | Dashboard | Check panels such as total assets, asset breakdown, and month-over-month change. |
-| Input | Check each asset's balance and record new balances. |
+| Input | Record balances. Choose from four ways: **Quick entry**, **Batch**, **By asset**, and **Calendar**. |
 | Chart | View trends of your total assets, assets, or categories in charts and tables. |
-| Asset Composition | See how your assets were distributed on a given date. |
-| Settings | Set your asset goal, manage assets and categories, currencies, backups, and more. |
+| Allocation | See how your assets were distributed on a given date. |
+| Settings | Set your asset goal, manage assets and categories, currencies, appearance, data import, backups, and more. |
 
 ## Terms
 
@@ -40,19 +41,23 @@ This app records **balances as of a given date**, not income and expenses.
 When you first launch the app, three assets (**Bank**, **Stocks**, and **Real Estate**) and default categories such as **Deposits & Cash** and **Stocks & Funds** are already set up.
 
 1. **Set up your assets**
-   Tap **Add asset** at the bottom right of the **Input** tab to add your accounts as assets. You can delete assets you don't need.
-   → [Managing Assets](assets)
+   On the **By asset** tab of the **Input** tab, tap **Add asset** at the bottom right to add your accounts as assets. You can delete assets you don't need.
+   With **Add several at once** on the **Asset list** screen, you can add several assets just by writing something like "Chase checking, Fidelity 401k".
+   → [Managing Assets](assets), [AI Features](ai)
 2. **Record your balances**
-   On the **Input** tab, tap an asset, then tap **New entry** to record its current balance.
+   On the **Quick entry** tab of the **Input** tab, choose an asset, enter its current balance, and tap **Save**.
    → [Recording Balances](recording)
+
+   If you managed your assets in other apps or in Excel, you can import assets and past records in bulk from screenshots or CSV files.
+   → [Data Import (Screenshots and CSV)](data-import)
 3. **Check categories (optional)**
-   Put assets into categories from the asset's edit screen or from **Settings** → **Categories**.
+   Put assets into categories from the asset's edit screen or from **Settings** → **Categories**. You can also sort them all at once with **Auto-organize categories**.
    → [Grouping with Categories](categories)
 4. **Set a goal (optional)**
    Enter a goal amount under **Settings** → **Asset Goal** to see your progress and estimated achievement date.
    → [Settings](settings)
 5. **Record regularly**
-   Recording balances on a regular schedule, such as once a month, lets you see trends in the charts.
+   Recording balances on a regular schedule, such as once a month, lets you see trends in the charts. If you record the same assets every time, creating a batch entry makes it easy.
    → [Viewing Trends in Charts](chart)
 
 > **Tip**

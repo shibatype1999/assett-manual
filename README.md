@@ -24,6 +24,8 @@ assett-manual/
 │   │   ├── asset-composition/index.md
 │   │   ├── currency/index.md
 │   │   ├── backup/index.md
+│   │   ├── data-import/index.md
+│   │   ├── ai/index.md
 │   │   ├── settings/index.md
 │   │   ├── premium/index.md
 │   │   └── faq/index.md
@@ -125,6 +127,8 @@ Remote Content プラグインは、指定した zip ファイルをダウンロ
 現在 OS ごとに違いが出るのは、主に次の箇所です。
 
 - `pages/<言語>/backup/index.md`（共有シート・ファイル選択画面）
+- `pages/<言語>/data-import/index.md`（写真の選択・スクリーンショットの撮り方）
+- `pages/<言語>/ai/index.md`（Apple Intelligence。Android では別の仕組みになる見込み）
 - `pages/<言語>/faq/index.md` の機種変更に関する項目
 - `pages/<言語>/premium/index.md`（App Store でのサブスクリプションの購入・解約）
 

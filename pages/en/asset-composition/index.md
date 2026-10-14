@@ -2,13 +2,13 @@
 <!-- position: 7 -->
 <!-- description: How to view your asset composition on a given date as a pie chart or treemap. -->
 
-The **Asset Composition** tab shows how much you had in each asset (or category) on a date you choose.
+The **Allocation** tab (screen title **Asset Composition**) shows how much you had in each asset (or category) on a date you choose.
 
 ![Asset Composition tab](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/asset-composition.png)
 
 ## How to use
 
-1. Open the **Asset Composition** tab. The composition as of today is shown first.
+1. Open the **Allocation** tab. The composition as of today is shown first.
 2. Choose the year, month, and day with the scroll wheels. You can choose from the date of your first record up to today.
 3. The composition on the selected date is shown.
 

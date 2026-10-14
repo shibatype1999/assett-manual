@@ -8,6 +8,10 @@ The **Dashboard** tab shows information such as your total assets and asset brea
 
 All amounts are converted to your **default currency** (→ [Currencies and Exchange Rates](currency)).
 
+## Hiding amounts
+
+Tap the eye icon at the top right of the **Total Assets** or **Total assets (simple)** panel to replace the total amount with "*********". This is useful when you open the app in front of others. Tap it again to show the amount.
+
 ## Refreshing exchange rates
 
 **Pull down** on the dashboard to update exchange rates and market prices (up to 2 times per day).
@@ -21,18 +25,20 @@ Initially, **Total Assets**, **Asset Breakdown**, and **Totals by asset** are sh
 | Total Assets | Your total assets and month-over-month change. If you use multiple currencies, subtotals per currency are shown; if you have set an asset goal, the achievement rate is shown too. |
 | Total assets (simple) | Your total assets in large text, with the month-over-month change below. |
 | Asset Breakdown | Each asset's share as a pie chart. |
-| Total assets trend | A line chart of your total assets. Choose **Half year**, **1Y**, **3 years**, **5 years**, or **All**. |
+| Total assets trend | A line chart of your total assets. Choose **6M**, **1Y**, **3Y**, **5Y**, or **All**. |
 | Totals by asset | Each asset's amount, largest first, with a percentage bar. If there are many, the top 10 are shown and the rest open with **Show all**. |
 | Month-over-month / Year-over-year | The difference in total assets from one month ago and one year ago. |
 | Biggest movers this month | Up to three assets that increased and three that decreased this month. |
 | Asset Goal | Goal amount, achievement rate, remaining amount, average monthly growth over the last 6 months, and the estimated month you'll reach the goal at that pace. |
+| This month's review | A short text about how your total assets changed since the end of last month, which assets moved the most, and more. → [AI Features](ai) |
+| Goal advice | A text about your progress toward the goal, when you can expect to reach it, and the monthly amount needed to reach it by your target year. → [AI Features](ai) |
 | Breakdown by currency | Subtotals per currency and their converted amounts in the default currency. |
 | Assets and liabilities | Total assets, total liabilities, and the difference (net worth). |
 | Exchange rates | For the foreign and custom currencies your assets use, the value of 1 unit in the default currency, and the last update time. |
 
 > **Notes**
 > - "Month-over-month" compares with total assets on the same day one month earlier.
-> - **All** in **Total assets trend** is a Premium feature (→ [Premium](premium)).
+> - **5Y** and **All** in **Total assets trend** are Premium features (→ [Premium](premium)).
 
 ### Switching between by asset and by category
 
@@ -55,5 +61,5 @@ These buttons appear only when at least one category contains assets (→ [Group
 
 In edit mode, tap the palette icon to change that panel's appearance. Changes are applied immediately.
 
-- **Background color** – Choose from the list. The leftmost option is the default color based on your theme color.
+- **Background color** – Choose from the list. The leftmost option is the default color.
 - **Text size** – Choose **Small**, **Default**, or **Large**.

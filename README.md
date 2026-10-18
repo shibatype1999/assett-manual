@@ -31,7 +31,6 @@ assett-manual/
 │   │   └── faq/index.md
 │   ├── en/                    … 英語版（ja/ と同じ構成・同じフォルダ名）
 │   ├── privacy-policy/        … プライバシーポリシー（日本語）→ /privacy-policy、en/ に英語版
-│   ├── contact/               … お問い合わせ。/contact は言語選択（Language Redirect で自動転送）、ja/ が日本語 → /contact/ja、en/ が英語 → /contact/en
 │   └── terms-of-service/      … 利用規約（日本語）→ /terms-of-service、en/ に英語版
 ├── drafts/                    … 下書き（Bludit には取り込まれません。例: 広告を入れる時の規約・ポリシーの文案）
 └── images/                    … スクリーンショット（Bludit には取り込まれず、GitHub から直接表示）
@@ -78,7 +77,7 @@ Remote Content プラグインは、指定した zip ファイルをダウンロ
 4. 「Try webhook」をタップすると、取り込みが実行されます。
    以後、マニュアルを更新したら Webhook のURL（`https://サイト/<Webhook の文字列>`）にアクセスすると再取り込みされます。
    GitHub の Webhook（リポジトリの Settings → Webhooks）にこのURLを登録すると、`main` へのプッシュ時に自動で更新されます。
-5. 言語の自動転送（Language Redirect）とお問い合わせフォーム（Contact Form）のプラグインは、非公開の `assett` リポジトリの `server/bludit-plugins/` で管理しています。設置方法はそちらの README を参照してください。
+5. 言語の自動転送（Language Redirect）のプラグインは、非公開の `assett` リポジトリの `server/bludit-plugins/` で管理しています。設置方法はそちらの README を参照してください。
 
 > **ご注意**
 > 取り込みを実行すると、**Bludit に登録されている既存のページとアップロード済みの画像はすべて削除**され、このリポジトリの内容に置き換わります。
@@ -109,7 +108,6 @@ Remote Content プラグインは、指定した zip ファイルをダウンロ
 2. 各ファイルを翻訳します。子ページのフォルダ名は変えません。
 3. 親ページ（`pages/<言語>/index.md`）の目次リンクを `ko/…` のように書き換え、`position` を既存の言語の後ろの番号にします。
    Language Redirect プラグインの設定画面で、「対応言語」にも追加します（例: `ja,en,ko`）。
-   お問い合わせページも用意する場合は `pages/contact/ko/index.md`（本文に `<!-- contact-form -->`）を作り、Contact Form プラグインの手順（`assett` リポジトリ）に従ってフォームの文言ファイルを追加します。
 4. `images/<言語コード>/` を作ってその言語のUIで撮影したスクリーンショットを置き、画像URLの `/images/ja/` を `/images/<言語コード>/` に置き換えます。
 5. 画面上の文言は、アプリ側の翻訳ファイル（`assett` リポジトリの `lib/l10n/app_<言語>.arb`）の表記に合わせます。
 

@@ -91,7 +91,7 @@ Copyrights and other intellectual property rights relating to the App belong to 
 
 ## Article 12 (Notices and communication)
 
-1. The Operator will give notices to Users by posting them on the App's user guide site (https://asset.fubuki.info/), by displaying them in the App, or by any other method the Operator deems appropriate.
+1. The Operator will give notices to Users by posting them on the App's user guide site (https://app.fubuki.info/asset/), by displaying them in the App, or by any other method the Operator deems appropriate.
 2. Notices under the preceding paragraph are deemed to have reached the User when they are posted on the site or displayed in the App.
 3. The User shall contact the Operator by email (inquiry@app.fubuki.info) from **Settings** → **Help** → **Contact** in the App.
 

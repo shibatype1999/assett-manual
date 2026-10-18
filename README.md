@@ -134,7 +134,8 @@ Android 用のスクリーンショットは `images/<言語>/android/` に置�
 
 ## 未確定の項目
 
-- アプリの「プライバシーポリシー」「利用規約」は `https://asset.fubuki.info/privacy-policy`・`https://asset.fubuki.info/terms-of-service` を開きます。これらは `pages/privacy-policy/`・`pages/terms-of-service/`（日本語）と、その下の `en/`（英語、`/privacy-policy/en` など）で管理しています。**フォルダ名を変えるとアプリのリンクが切れる**ので注意してください。
+- ご利用ガイドのサイトは `https://app.fubuki.info/asset/` です（アプリの「ヘルプ」→「ガイド」もここを開きます）。
+- アプリの「プライバシーポリシー」「利用規約」は `https://app.fubuki.info/asset/privacy-policy`・`https://app.fubuki.info/asset/terms-of-service` を開きます。これらは `pages/privacy-policy/`・`pages/terms-of-service/`（日本語）と、その下の `en/`（英語、`/privacy-policy/en` など）で管理しています。**フォルダ名を変えるとアプリのリンクが切れる**ので注意してください。
 
 ## 用語
 

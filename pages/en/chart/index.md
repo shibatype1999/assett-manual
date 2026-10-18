@@ -33,6 +33,7 @@ Use the buttons below the chart to switch chart types.
 | Change factors | Groups changes in balance by the subcategories attached to records (see below). |
 
 - **Stacked Chart** and **Bar Chart** are available only when **All** is selected.
+- Lines are drawn as steps at first (a balance stays the same until the next record). Turn on **Smooth lines** under **Settings** → **Display Format** to draw curves instead (→ [Settings](settings)).
 - Tap the chart to see the amount at that point.
 - In **Bar Chart** and **Change factors**, tap a legend item to show or hide it in the chart. If there are many legend items, only the top ones are shown and the rest open with the + button.
 

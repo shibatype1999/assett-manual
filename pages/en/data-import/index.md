@@ -29,7 +29,7 @@ Everything is read on your device. Images and file contents are never sent anywh
 - Turn off hidden balances (***).
 - Choose screens where the name and amount are on the same line.
 - Close banners and pop-ups before taking the shot.
-- If an "as of" date is shown, records use that date.
+- If an "as of" date is shown, records use that date. On table screens that list dates, names, and amounts, each row uses its own date (and currency).
 
 **How to take screenshots** on the **Data import** screen shows examples of screens that can and can't be read.
 
@@ -109,7 +109,7 @@ The **Review import** screen shows, for each name that was read, where it will b
    - **New** – A new asset is created. Its icon, currency, and category are suggested from the name. Assets whose records are all negative (such as loans) are created as liabilities.
    - Tap a row to choose again: an existing asset, **Create new asset "…"**, or **Don't import**.
 2. Rows whose amount couldn't be read are marked **Enter**. If you don't enter an amount, the row isn't saved.
-3. For screenshots, check the date for the records. For CSV records without a date, the date chosen under **Date for records without one** is used.
+3. For records whose date couldn't be read (including CSV rows without a date), the date chosen under **Date for records without one** is used. Rows with their own date are recorded on that date.
 4. Under **If a record exists on the same date**, choose **Overwrite** or **Skip**.
 5. Tap **Save …**.
 

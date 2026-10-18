@@ -17,7 +17,7 @@ Settings are divided into the following groups.
 | | Subcategories | Manage the subcategories attached to records. |
 | | Batch entry | Manage the sets of assets you record together. → [Recording Balances](recording) |
 | Currency & display | Currency & Rates | Set your default currency and exchange rates. → [Currencies and Exchange Rates](currency) |
-| | Display Format | Set decimal places, rounding, and number format. |
+| | Display Format | Set decimal places, rounding, number format, and the shape of chart lines. |
 | | Date Format | Choose how dates are shown in the app. |
 | | Language | Change the app's display language. |
 | Appearance | Skin | Choose the design of the whole app. |
@@ -66,6 +66,11 @@ Set how amounts are displayed.
 This only changes how amounts are displayed; the recorded amounts themselves don't change.
 In amount input fields, always enter numbers like "1,234.56", whichever format you choose.
 
+### Smooth chart lines
+
+Turn on **Smooth lines** under **Charts** at the bottom of the **Display Format** screen to connect points with curves in line charts and other charts.
+When it's off (the default), lines are drawn as steps, since a balance stays the same until the next record.
+
 ## Date Format
 
 Choose how all dates in the app are shown. The screen shows today's date in the selected format as an example.
@@ -81,6 +86,7 @@ Each skin shows a preview (title area, total assets, and bottom menu). Tap one t
 | --- | --- |
 | Basic | Standard, Cool, Cute, Hot, Ice |
 | Luxury | Black Card, Midnight Dial, Quilted Leather, Crocodile, Gold Bar, Diamond, Silk Satin, Royal Gold, Green Dial, Emerald Croco, Emerald Cut, Jade, Matcha & Gold, Sage Silk |
+| Gems | Sapphire Star, Sapphire Cut, Amethyst Geode, Amethyst Lilac, Ruby Dark Wine, Ruby Bright, White Opal, Black Opal, Aquamarine Water, Aquamarine Crystal |
 
 **Theme** and **Theme Color** can be used only with the **Standard** skin. With other skins, they show **Standard only**.
 

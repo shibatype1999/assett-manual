@@ -18,7 +18,7 @@ Asset Manager lets you record the balances of all your assets (bank deposits, st
 - **Set a goal** – Set an asset goal to see your progress and estimated achievement date.
 - **Get help from AI** – With Apple Intelligence, add several assets at once, organize categories, and get this month's review and goal advice (it runs only on your device).
 - **Back up your data** – Save a copy inside the app, set up automatic backups, or export a file to iCloud Drive and other services. You can also encrypt it with a password.
-- **Make it your own** – Choose from 19 skins, including luxury designs, and lock the app with a passcode.
+- **Make it your own** – Choose from 29 skins, including luxury and gem designs, and lock the app with a passcode.
 
 All of your data is stored on your device. No account is required.
 

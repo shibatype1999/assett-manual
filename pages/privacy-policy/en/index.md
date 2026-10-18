@@ -93,7 +93,7 @@ Because the Operator does not collect data such as your assets or balances, it d
 
 ## 8. Information received through inquiries
 
-Information included in emails you send us, such as your name, email address, and the content of your inquiry, is used only to respond to your inquiry and to improve the App, and is not provided to third parties except as required by law.
+Information included in emails you send through **Contact** in the App, such as your email address, the type and content of your inquiry, and the device type, OS, and app version that are filled in automatically, is used only to respond to your inquiry and to improve the App, and is not provided to third parties except as required by law. Inquiry emails never automatically include your asset data.
 
 ## 9. Changes to this Policy
 
@@ -101,8 +101,8 @@ The Operator may change this Policy as necessary. When doing so, the Operator wi
 
 ## 10. Contact
 
-For inquiries about this Policy, please contact us at the following email address.
+For inquiries about this Policy, please contact us by email from **Settings** → **Help** → **Contact** in the App.
 
-Email: @@EMAIL@@
+Email: inquiry@app.fubuki.info
 
 Established: September 27, 2026

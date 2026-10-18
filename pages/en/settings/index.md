@@ -27,7 +27,7 @@ Settings are divided into the following groups.
 | | Backup & Restore | Back up and restore your data. → [Backing Up and Restoring Data](backup) |
 | | Passcode Lock | Set a passcode for opening the app. |
 | AI | AI features (Apple Intelligence) | Turn AI features on or off. → [AI Features](ai) |
-| Support | Help | Open the guide or contact page. |
+| Support | Help | Open the guide, or contact us by email. |
 | | Details | View the terms of service, version, and more. |
 
 ## Asset Goal
@@ -134,7 +134,7 @@ If you haven't renamed the default assets and subcategories, their names change 
 ## Help
 
 - **Guide** – Opens this user guide.
-- **Contact** – Opens the contact page.
+- **Contact** – Opens the inquiry screen. Choose **Bug** or **Other** and tap **Contact us by email** to open your mail app. The address, subject, device model, OS version, and app version are filled in for you, so write your message and send it. None of your asset data is included. If no mail app can be opened, copy the address shown on the screen and email us.
 
 ## Details
 

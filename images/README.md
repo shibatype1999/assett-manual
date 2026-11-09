@@ -60,6 +60,21 @@ iPhone で撮影した画像に差し替える場合は、同じファイル名�
 | `settings-skin.png` | settings | 「設定」→「スキン」画面（スキンの見本が並んだ状態） |
 | `settings-goal.png` | settings | 「資産目標」画面（目標金額・達成したい年と「チャートに目標額を表示する」） |
 | `upgrade.png` | premium | 「設定」→「アップグレード」画面 |
+| `analysis-fund-flow.png` | analysis | 「チャート」タブで「預け入れと値動き」を選んだ状態 |
+| `analysis-performance.png` | analysis | 「チャート」タブで「成績表」を選んだ状態 |
+| `analysis-risk-return.png` | analysis | 「チャート」タブで「リスクとリターン」を選んだ状態（期間1年以上） |
+| `analysis-projection.png` | analysis | 「目標までの予測」をオンにして、目標までの軌道が見える状態 |
+| `analysis-fx-impact.png` | analysis | 外貨の資産の記録一覧（「為替の影響」） |
+| `analysis-target.png` | analysis | 「資産構成」タブの「目標の配分」 |
+| `analysis-diagnosis.png` | analysis | 「資産構成」タブの「診断」 |
+| `analysis-diversity.png` | analysis | 「資産構成」タブの「分散度」 |
+| `analysis-liquidity.png` | analysis | 「資産構成」タブの「流動性」 |
+| `analysis-report.png` | analysis | 「設定」→「月次・年次レポート」 |
+| `analysis-alerts.png` | analysis | 「設定」→「アラート」 |
+| `sim-accumulation.png` | simulators | 積立シミュレーターの条件 |
+| `sim-accumulation-result.png` | simulators | 積立シミュレーターの結果（○年後） |
+| `sim-withdrawal.png` | simulators | 取り崩しシミュレーター（かんたん） |
+| `sim-withdrawal-detailed.png` | simulators | 取り崩しシミュレーター（詳しく試算・取り崩す順番） |
 
 ## Android 版を追加する場合
 

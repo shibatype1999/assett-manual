@@ -22,6 +22,8 @@
 
 ### 預け入れと値動き
 
+![預け入れと値動き](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/analysis-fund-flow.png)
+
 期間中の増減を、**預け入れ**（入金）・**引き出し**・**値動き**に分けて表示します。「自分で入れたお金」と「運用で増えた（減った）お金」を分けて確かめられます。
 
 - 「預金・現金」カテゴリの資産と負債の増減は預け入れ・引き出し、ほかの資産の増減は値動きとして自動で分けます。
@@ -32,12 +34,16 @@
 
 ### 成績表
 
+![成績表](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/analysis-performance.png)
+
 資産ごとに、期間中に**増えた額・率・寄与度**を一覧にします。「増えた額」「率」「寄与度」で並べ替えられます。
 
 - 率は預け入れを含みます。預け入れ・引き出しのある資産は、「値動きだけ」の率も表示します。
 - 寄与度は、期間の始めの総資産に対する、増えた額の割合です。
 
 ### リスクとリターン
+
+![リスクとリターン](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/analysis-risk-return.png)
 
 資産ごとの「1年の増え方」（縦）と「値動きの大きさ」（横）を、点の散布図で表示します。点の大きさは金額で、左上ほど「値動きが小さく、よく増えた」資産です。
 
@@ -52,7 +58,11 @@
 - グラフの下の「目標までの軌道（年利ごと）」に、今のペースのままの場合と、年利0%・3%・5%・7%・10%で増えた場合に、目標に届く時期と残りの期間が表示されます。
 - ダッシュボードの「資産目標」パネルにも、到達の見込みが表示されます。
 
+![目標までの予測](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/analysis-projection.png)
+
 ## 為替の影響
+
+![為替の影響](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/analysis-fx-impact.png)
 
 外貨・金・暗号資産などの資産の記録一覧には、「為替の影響」が表示されます。期間（1か月・3か月・1年・全期間）中の増減を、**現地の値動き**と**為替の動き**に分けて確かめられます。
 
@@ -70,9 +80,13 @@
 2. 資産（カテゴリ）ごとの割合を、合計が100%になるように入力します。負債は配分に含めません。
 3. 「許容範囲」（±○ポイント）を選んで保存します。
 
+![目標の配分](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/analysis-target.png)
+
 配分は、資産構成で選んでいる表示（資産別・カテゴリ別）ごとに決めます。各項目に「今 ○% ／ 目標 ○%」と、許容範囲に入っているかが表示されます。
 
 ### 分散度
+
+![分散度](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/analysis-diversity.png)
 
 カテゴリ・通貨・資産のそれぞれについて、割合の偏り（集中度）から分散度を点数で表示します。1つに集中している場合は、その名前と割合を表示します。点数は目安で、良し悪しを決めるものではありません。
 
@@ -83,6 +97,8 @@
 - 段階は資産のカテゴリから決まります。資産の編集画面の「流動性」で変えられます。
 - 「毎月の生活費」を設定すると、すぐ使えるお金が生活費の何か月分かが分かります（未設定の時は、取り崩しシミュレーターの毎月の取り崩し額を使います）。
 
+![流動性](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/analysis-liquidity.png)
+
 ### 診断
 
 ポートフォリオ（資産の組み合わせ）を、2つの面から診断します。
@@ -92,6 +108,8 @@
 
 診断には、2種類以上の資産の種類（国内株式・外国株式・債券・現金・預金・金・不動産・REIT・その他）が必要です。「資産の種類を割り当てる」で、資産ごとの種類を確認・変更できます（初期値はカテゴリと通貨から決まります）。
 
+![診断](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/analysis-diagnosis.png)
+
 ## 月次・年次レポート
 
 1か月（1年）の資産の動きを、グラフ中心のレポートにまとめます。「設定」→「月次・年次レポート」で開きます。月が変わると、ダッシュボードに「○月のレポートができました」と表示され、タップすると開けます。
@@ -100,6 +118,8 @@
 - 総資産と前月比（前年比）、推移・増減のチャート、増加の内訳、増えた・減った資産、資産目標の達成率などを表示します。
 - 目のボタンで金額を隠せます。「画像で共有」で、レポートを画像として共有できます。
 - **年次レポートと、先月より前の月次レポートはプレミアム機能**です。
+
+![月次レポート](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/analysis-report.png)
 
 ## アラート
 
@@ -114,3 +134,5 @@
 | 節目を超えた時 | 総資産が、設定した金額ごとの節目を超えた時 |
 
 お知らせは「閉じる」で消せます。
+
+![アラートの設定](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/analysis-alerts.png)

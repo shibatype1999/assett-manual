@@ -18,6 +18,8 @@ The starting amount is filled in with your current recorded balance (total asset
 
 ### Project ahead
 
+![Savings simulator](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/sim-accumulation.png)
+
 1. Tap **Settings** → **Savings simulator** and choose **Project ahead**.
 2. Choose the target with **Total assets** or **Choose assets**.
 3. Enter the conditions.
@@ -33,6 +35,8 @@ The starting amount is filled in with your current recorded balance (total asset
    | Yearly contribution increase | How much to increase the contribution each year (Premium). |
 
 4. The **Contributions**, **Growth**, and **Total** after the period are shown, along with a year-by-year table. If you have an asset goal, when you'll reach it is also shown.
+
+![Savings simulator results](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/sim-accumulation-result.png)
 
 - With **Use your records** under **From records**, you can fill in the monthly growth pace, monthly contributions, and return calculated from your records.
 - The monthly contribution needed to reach your goal within the period is shown with Premium.
@@ -62,6 +66,8 @@ Under **Project ahead**, you can choose **Simple** or **Detailed**. **Compare wi
 
 3. **How long it lasts**, the total withdrawn, and a year-by-year table are shown.
 
+![Withdrawal simulator](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/sim-withdrawal.png)
+
 The monthly withdrawal worked back from how long you want your assets to last is shown with Premium.
 
 ### Detailed (Premium)
@@ -71,6 +77,8 @@ The monthly withdrawal worked back from how long you want your assets to last is
 - **Withdrawal order** – Withdraw from categories or assets in order from the top. Reorder with the handle, and use the switch to exclude ones you don't want to withdraw from. You can also choose **Withdraw in proportion to balances**.
 - **Income & big expenses** – Add monthly income such as a pension, or a big expense a number of years later.
 - **With market ups and downs** – When on, runs 1,000 scenarios with each asset's typical price swings and shows the probability that your assets last, and the range of results (good case: top 10%, median, bad case: bottom 10%).
+
+![Withdrawal simulator (Detailed)](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/sim-withdrawal-detailed.png)
 
 ## Saving a plan and comparing it with your records (Premium)
 

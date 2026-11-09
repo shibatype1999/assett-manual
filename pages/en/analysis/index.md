@@ -22,6 +22,8 @@ The following three can be chosen as chart types on the **Chart** tab (→ [View
 
 ### Contributions & Growth
 
+![Contributions & Growth](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/analysis-fund-flow.png)
+
 Splits the change during the period into **Contributions**, **Withdrawals**, and **Growth**, so you can see the money you put in separately from the money gained (or lost) through investment.
 
 - Changes in assets in the **Deposits & Cash** category and in liabilities count as contributions and withdrawals; changes in other assets count as growth.
@@ -32,12 +34,16 @@ Splits the change during the period into **Contributions**, **Withdrawals**, and
 
 ### Performance
 
+![Performance](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/analysis-performance.png)
+
 Lists each asset's **amount gained, rate, and contribution** during the period. Sort by **Amount**, **Rate**, or **Contribution**.
 
 - The rate includes contributions. For assets with contributions or withdrawals, a "Growth only" rate is also shown.
 - Contribution is the amount gained as a share of total assets at the start of the period.
 
 ### Risk & return
+
+![Risk & return](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/analysis-risk-return.png)
 
 Shows each asset as a dot, with its yearly growth (vertical) and the size of its price swings (horizontal). The size of a dot is the amount. Assets toward the upper left grew well with small swings.
 
@@ -52,7 +58,11 @@ If you have set an asset goal, turn on **Projection to goal** on the **Chart** t
 - **Paths to your goal (by yearly return)** below the chart shows when you would reach the goal, and how long it would take, at your current pace and at yearly returns of 0%, 3%, 5%, 7%, and 10%.
 - The **Asset Goal** panel on the dashboard also shows when you're expected to reach it.
 
+![Projection to goal](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/analysis-projection.png)
+
 ## Currency impact
+
+![Currency impact](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/analysis-fx-impact.png)
 
 The record list of foreign-currency, gold, crypto, and similar assets shows **Currency impact**, which splits the change over a period (1 month, 3 months, 1 year, or all) into the **local price move** and the **exchange-rate move**.
 
@@ -70,9 +80,13 @@ Set your ideal mix (e.g. 60% stocks, 30% cash, 10% gold) to see how far your cur
 2. Enter a percentage for each asset (or category) so that the total is 100%. Liabilities are not included.
 3. Choose a **Tolerance** (± points) and save.
 
+![Target mix](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/analysis-target.png)
+
 The target mix is set separately for each view on the Allocation tab (by asset or by category). Each item shows "now …% / target …%" and whether it is within the tolerance.
 
 ### Diversification
+
+![Diversification](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/analysis-diversity.png)
 
 Shows a diversification score for categories, currencies, and assets, based on how concentrated the shares are. If one item dominates, its name and share are shown. The score is a guide, not a judgment of good or bad.
 
@@ -83,6 +97,8 @@ Sorts your assets into three levels (**Available now**, **Cash in a few days**, 
 - The level is set from the asset's category. You can change it with **Liquidity** on the asset's edit screen.
 - Set **Monthly living costs** to see how many months of living costs your available money covers (if not set, the monthly withdrawal in the withdrawal simulator is used).
 
+![Liquidity](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/analysis-liquidity.png)
+
 ### Diagnosis
 
 Diagnoses your portfolio (the mix of your assets) in two ways.
@@ -92,6 +108,8 @@ Diagnoses your portfolio (the mix of your assets) in two ways.
 
 The diagnosis needs at least two asset types (domestic stocks, foreign stocks, bonds, cash and deposits, gold, real estate and REITs, or other). Use **Assign asset types** to check or change each asset's type (the defaults come from the category and currency).
 
+![Diagnosis](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/analysis-diagnosis.png)
+
 ## Monthly and yearly reports
 
 Summarizes how your assets moved over a month (or year) in a chart-focused report. Open it under **Settings** → **Monthly & yearly reports**. When a new month starts, "Your … report is ready" appears on the dashboard; tap it to open the report.
@@ -100,6 +118,8 @@ Summarizes how your assets moved over a month (or year) in a chart-focused repor
 - Shows total assets and the change from the previous month (or year), trend and change charts, a breakdown of the change, assets that went up and down, and progress toward your asset goal.
 - Use the eye button to hide amounts. Tap **Share as image** to share the report as an image.
 - **Yearly reports and monthly reports older than last month are Premium features.**
+
+![Monthly report](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/analysis-report.png)
 
 ## Alerts
 
@@ -114,3 +134,5 @@ When a condition is met, a notice appears at the top of the dashboard when you o
 | Milestone passed | Your total assets passed a milestone (every set amount) |
 
 Tap **Dismiss** to close a notice.
+
+![Alert settings](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/analysis-alerts.png)

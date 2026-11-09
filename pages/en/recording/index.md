@@ -149,7 +149,7 @@ You can't change the asset when editing a record.
 
 ## About subcategories
 
-A subcategory is a label you attach to a record. **Sale**, **Withdrawal**, **Salary**, **Valuation**, and **Deposit** are provided at first.
+A subcategory is a label you attach to a record. **Sale**, **Withdrawal**, **Salary**, **Valuation**, **Deposit**, **Transfer in**, and **Transfer out** are provided at first. **Transfer in** and **Transfer out** are counted as money paid into or out of brokerage and similar accounts in the **Contributions & Growth** analysis (→ [Analysis and Reports](analysis)).
 Attaching subcategories lets you see what caused your balance to go up or down in the **Change factors** view of the chart (→ [Viewing Trends in Charts](chart)).
 Add, rename, reorder, and delete subcategories under **Settings** → **Subcategories** (→ [Settings](settings)).
 

@@ -15,10 +15,12 @@ Asset Manager lets you record the balances of all your assets (bank deposits, st
 - **Use multiple currencies** – Foreign currencies, gold, crypto, and more are converted with automatically fetched rates and included in the total.
 - **Track trends with charts** – View changes with line, stacked, and bar charts, plus a change-factors chart.
 - **Look back at past composition** – Pick a date to see how your assets were distributed, as a pie chart or treemap.
-- **Set a goal** – Set an asset goal to see your progress and estimated achievement date.
+- **Set a goal** – Set an asset goal to see your progress, estimated achievement date, and a projection to the goal.
+- **Analysis and reports** – Check how your assets grow and how they are spread with contributions vs. growth, per-asset performance, a target mix, a portfolio diagnosis, monthly and yearly reports, and more.
+- **Simulators** – Estimate how your assets will develop with regular savings or withdrawals.
 - **Get help from AI** – With Apple Intelligence, add several assets at once, organize categories, and get this month's review and goal advice (it runs only on your device).
 - **Back up your data** – Save a copy inside the app, set up automatic backups, or export a file to iCloud Drive and other services. You can also encrypt it with a password.
-- **Make it your own** – Choose from 29 skins, including luxury and gem designs, and lock the app with a passcode.
+- **Make it your own** – Choose from 43 skins, including luxury, gem, and fancy designs, and lock the app with a passcode.
 
 All of your data is stored on your device. No account is required.
 
@@ -35,9 +37,11 @@ All of your data is stored on your device. No account is required.
 9. [Backing Up and Restoring Data](en/backup)
 10. [Data Import (Screenshots and CSV)](en/data-import)
 11. [AI Features (Apple Intelligence)](en/ai)
-12. [Settings](en/settings)
-13. [Premium](en/premium)
-14. [FAQ](en/faq)
+12. [Analysis and Reports](en/analysis)
+13. [Simulators](en/simulators)
+14. [Settings](en/settings)
+15. [Premium](en/premium)
+16. [FAQ](en/faq)
 
 ## Supported environment
 

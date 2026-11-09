@@ -1,5 +1,5 @@
 # Settings
-<!-- position: 12 -->
+<!-- position: 14 -->
 <!-- description: Settings such as asset goal, batch entry, display format, language, skin, theme, and passcode lock. -->
 
 The **Settings** tab lets you change various app settings.
@@ -27,6 +27,9 @@ Settings are divided into the following groups.
 | | Backup & Restore | Back up and restore your data. → [Backing Up and Restoring Data](backup) |
 | | Passcode Lock | Set a passcode for opening the app. |
 | AI | AI features (Apple Intelligence) | Turn AI features on or off. → [AI Features](ai) |
+| Tools | Savings simulator / Withdrawal simulator | Estimate your future assets. → [Simulators](simulators) |
+| | Monthly & yearly reports | Open reports that summarize a month or a year. → [Analysis and Reports](analysis) |
+| | Alerts | Choose when notices appear on the dashboard. → [Analysis and Reports](analysis) |
 | Support | Help | Open the guide, or contact us by email. |
 | | Details | View the terms of service, version, and more. |
 
@@ -68,8 +71,10 @@ In amount input fields, always enter numbers like "1,234.56", whichever format y
 
 ### Smooth chart lines
 
-Turn on **Smooth lines** under **Charts** at the bottom of the **Display Format** screen to connect points with curves in line charts and other charts.
-When it's off (the default), lines are drawn as steps, since a balance stays the same until the next record.
+When **Smooth lines** under **Charts** at the bottom of the **Display Format** screen is on (the default), points are connected with curves in line charts and other charts.
+Turn it off to draw lines as steps, since a balance stays the same until the next record.
+
+Turn on **Show plan line on charts**, also under **Charts**, to overlay a plan saved in a simulator (one for total assets) on the total assets trend as a dotted line (Premium; → [Simulators](simulators)).
 
 ## Date Format
 
@@ -87,6 +92,7 @@ Each skin shows a preview (title area, total assets, and bottom menu). Tap one t
 | Basic | Standard, Cool, Cute, Hot, Ice |
 | Luxury | Black Card, Midnight Dial, Quilted Leather, Crocodile, Gold Bar, Diamond, Silk Satin, Royal Gold, Green Dial, Emerald Croco, Emerald Cut, Jade, Matcha & Gold, Sage Silk |
 | Gems | Sapphire Star, Sapphire Cut, Amethyst Geode, Amethyst Lilac, Ruby Dark Wine, Ruby Bright, White Opal, Black Opal, Aquamarine Water, Aquamarine Crystal |
+| Fancy | Choco Mint, Strawberry Milk, Teddy Bear, Blue Sky, Sunset Clouds, Cotton Candy, Unicorn, Macaron, Bubbles, Lemon Soda, Sakura, Starry Dream, Flower Field, Cat Paws |
 
 **Theme** and **Theme Color** can be used only with the **Standard** skin. With other skins, they show **Standard only**.
 

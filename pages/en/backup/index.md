@@ -1,6 +1,6 @@
 # Backing Up and Restoring Data
 <!-- position: 9 -->
-<!-- description: Local backups, auto backups, exporting to a file, and how to restore your data. -->
+<!-- description: Local backups, backup options (auto backup and saving to iCloud Drive), exporting to a file, and how to restore or reset your data. -->
 
 All of your data is stored on your device.
 We recommend backing up regularly in case you change devices or something goes wrong.
@@ -12,8 +12,9 @@ Backups are under **Settings** → **Backup & Restore**.
 | Method | Saved to | Best for |
 | --- | --- | --- |
 | Local Backup | Inside the app | A temporary copy before making big changes |
-| Auto Backup (Premium) | Inside the app | Regular backups |
-| Export Data (Premium) | A file (iCloud Drive, etc.) | Changing devices, long-term storage |
+| Auto backup (Premium) | Inside the app | Regular backups |
+| Saving to iCloud Drive (Premium) | The "Asset" folder in iCloud Drive | Protection against device failure or loss |
+| Export Data | A file (iCloud Drive, etc.) | Changing devices, long-term storage |
 
 ## Local Backup
 
@@ -26,12 +27,7 @@ Saves a copy of your current data inside the app. No file sharing is involved.
 
 Each time you save, a new local backup is added.
 
-### Restoring from the latest backup
-
-1. Tap **Restore from Local**.
-2. The confirmation dialog shows the date and time of the latest backup. Tap **Restore**.
-
-### Restoring from the backup list (Premium feature)
+### Restoring from the backup list
 
 1. Tap **Restore from backup list**.
 2. Saved backups are listed with their date and time, whether they are **Auto** or **Manual**, and the number of assets and records.
@@ -45,16 +41,29 @@ You can delete backups you no longer need with the trash icon in the list.
 > - Restoring overwrites your current data.
 > - Local backups (including auto backups) are stored inside the app, so **they are deleted if you delete the app**. To change devices, use **Export Data**.
 
-## Auto Backup (Premium feature)
+## Backup options (Premium feature)
+
+**Backup options** is where you set up auto backup and saving to iCloud Drive.
+
+### Auto backup
 
 Creates local backups automatically at a set interval.
 
-1. Tap **Auto Backup**.
+1. Tap **Backup options**.
 2. Turn on **Enable auto backup**. The first backup is created when you turn it on.
-3. Choose an **Interval**: **Daily**, **Weekly**, or **Monthly**.
-4. Under **Delete old auto backups**, choose when old auto backups are deleted.
+3. Choose an **Interval**: **Daily**, **Weekly**, or **Monthly** (default).
+4. Under **Delete old auto backups**, choose when old auto backups are deleted (the default is keeping the latest 10).
 
-![Auto Backup](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/auto-backup.png)
+![Auto backup](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/auto-backup.png)
+
+### Also save to iCloud Drive
+
+When on, each time a backup is made, a file is also saved to the "Asset" folder under **iCloud Drive** in the Files app. If your device breaks or is lost, you can restore your data from iCloud Drive.
+
+- You need to be signed in to iCloud with iCloud Drive turned on.
+- You can view, copy, and delete the saved files in the Files app. To restore, choose the file with **Import Data**.
+- Files saved to iCloud Drive are **not encrypted**. Be careful about sharing in iCloud Drive.
+- When an auto backup is deleted, the same file in iCloud Drive is also deleted (manual backups are not deleted).
 
 ### When backups are created
 
@@ -72,15 +81,15 @@ The screen shows the time of the last auto backup and the next scheduled one.
 
 Choose one of the following:
 
-- Keep all
-- Delete older than N days (30, 90, or 180 days)
-- Keep latest N (10, 20, or 30)
-- Delete oldest when over N MB total (10, 50, or 100 MB)
+- Delete older than N days (30 or 90 days)
+- Keep latest N (10 or 20)
+- Delete oldest when over N MB total (10 or 50 MB)
 
 **Only auto backups** are deleted automatically; backups you created manually are kept.
-With **Keep all**, storage use keeps growing, so delete unneeded backups from the list as needed. The screen shows the total size and number of auto backups.
+The screen shows the total size and number of auto backups.
+After you cancel Premium, no new auto backups are made, and existing auto backups are no longer deleted automatically (they remain on your device and in iCloud Drive).
 
-## Export Data (Premium feature)
+## Export Data
 
 Exports your data as a single file (`asset-YYYYMMDD-HHMMSS.json`) that you can save to iCloud Drive and other services.
 You can also set a password to export the file encrypted.
@@ -103,7 +112,7 @@ You can also set a password to export the file encrypted.
 > - The password is not saved in the app and is not sent to the operator. **If you forget the password, the encrypted file cannot be restored.**
 > - A file exported without encryption contains your asset names and balances as they are. Be careful where you save or share it.
 
-## Import Data (Premium feature)
+## Import Data
 
 Restores your data from an exported file.
 
@@ -120,18 +129,32 @@ Restores your data from an exported file.
 > - Only files exported from this app can be imported. If a file can't be read, "Restore failed" is shown.
 > - If the password is wrong, "Wrong password" is shown.
 
+## Resetting data
+
+Deletes assets, records, categories, subcategories, custom currencies, goals, batch entry templates, and so on, and returns the app to how it was when first launched.
+
+1. Tap **Reset data** at the bottom of the **Backup & Restore** screen.
+2. Tap the confirm button in the dialog.
+
+- Before resetting, your current data is saved as a manual backup. You can undo the reset with **Restore from backup list**.
+- Backups on your device and display settings are kept.
+
 ## What is included in a backup
 
 | Included | Not included |
 | --- | --- |
-| Assets (including whether they are included in totals) | Default currency |
+| Assets (including whether they are included in totals, monthly contribution, liquidity, and asset type) | Default currency |
 | Records (balances, dates and times, subcategories, memos, exchange rates) | Display format and date format |
 | Categories | Skin, theme, and theme color |
 | Subcategories | Dashboard panel layout |
 | Asset goal (goal amount) | The asset goal's target year |
 | Batch entries | Gold valuation settings |
-| Display language | Auto backup settings |
+| Display language | Backup options settings |
 | Custom currencies | Passcode lock |
 | Currency rate settings | AI feature setting |
+| Plans saved in simulators | |
+| Target mix and tolerance | |
+| Monthly living costs | |
+| Alert settings | |
 
 After restoring, set up the settings that are not included again as needed.

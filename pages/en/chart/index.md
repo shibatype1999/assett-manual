@@ -31,13 +31,23 @@ Use the buttons below the chart to switch chart types.
 | Stacked Chart | Stacks the amount of each asset (or category) as an **Asset Trend**. Liabilities are shown below zero. |
 | Bar Chart | Shows the amount of each asset (or category) as stacked bars. |
 | Change factors | Groups changes in balance by the subcategories attached to records (see below). |
+| Contributions & Growth | Splits the change during the period into contributions, withdrawals, and growth. → [Analysis and Reports](analysis) |
+| Performance | Lists each asset's amount gained, rate, and contribution. → [Analysis and Reports](analysis) |
+| Risk & return | Plots each asset's yearly growth against its price swings (when a period of one year or longer is chosen). → [Analysis and Reports](analysis) |
 
-- **Stacked Chart** and **Bar Chart** are available only when **All** is selected.
-- Lines are drawn as steps at first (a balance stays the same until the next record). Turn on **Smooth lines** under **Settings** → **Display Format** to draw curves instead (→ [Settings](settings)).
+- **Stacked Chart** and **Bar Chart** are available when **All** or a category is selected. With a category, the assets in it are drawn separately.
+- Lines connect points with smooth curves at first. Turn off **Smooth lines** under **Settings** → **Display Format** to draw them as steps (a balance stays the same until the next record) (→ [Settings](settings)).
 - Tap the chart to see the amount at that point.
 - In **Bar Chart** and **Change factors**, tap a legend item to show or hide it in the chart. If there are many legend items, only the top ones are shown and the rest open with the + button.
 
 ![Stacked chart](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/chart-stacked.png)
+
+## Showing the projection to your goal
+
+If you have set an asset goal, turn on **Projection to goal** to show a projection (a dotted line and a band) beyond your total assets trend. Below the chart, **Paths to your goal (by yearly return)** lists when you would reach the goal at your current pace and at yearly returns of 0% to 10%. At least 3 months of records are needed.
+→ [Analysis and Reports](analysis)
+
+If you save a plan in a simulator and turn on **Show plan line on charts** under **Settings** → **Display Format**, the plan is also shown as a dotted line (Premium; → [Simulators](simulators)).
 
 ## Viewing change factors
 

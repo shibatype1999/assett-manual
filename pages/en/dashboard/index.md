@@ -8,13 +8,22 @@ The **Dashboard** tab shows information such as your total assets and asset brea
 
 All amounts are converted to your **default currency** (→ [Currencies and Exchange Rates](currency)).
 
+## Notices
+
+The following notices may appear at the top of the screen.
+
+- **Alerts** – Shown when a condition you chose under **Settings** → **Alerts** is met (a large drop, missing records, goal reached, and so on). Alerts are off at first. Tap **Dismiss** to close one.
+- **Report notice** – When a new month starts, "Your … report is ready" appears. Tap it to open the monthly report.
+
+→ [Analysis and Reports](analysis)
+
 ## Hiding amounts
 
 Tap the eye icon at the top right of the **Total Assets** or **Total assets (simple)** panel to replace the total amount with "*********". This is useful when you open the app in front of others. Tap it again to show the amount.
 
 ## Refreshing exchange rates
 
-**Pull down** on the dashboard to update exchange rates and market prices (up to 2 times per day).
+**Pull down** on the dashboard to update exchange rates and market prices (up to once per day).
 
 ## Available panels
 
@@ -31,6 +40,7 @@ Initially, **Total Assets**, **Asset Breakdown**, and **Totals by asset** are sh
 | Biggest movers this month | Up to three assets that increased and three that decreased this month. |
 | Asset Goal | Goal amount, achievement rate, remaining amount, average monthly growth over the last 6 months, and the estimated month you'll reach the goal at that pace. |
 | This month's review | A short text about how your total assets changed since the end of last month, which assets moved the most, and more. → [AI Features](ai) |
+| Plan vs. actual | The difference between a plan saved in a simulator and your recorded results (Premium). → [Simulators](simulators) |
 | Goal advice | A text about your progress toward the goal, when you can expect to reach it, and the monthly amount needed to reach it by your target year. → [AI Features](ai) |
 | Breakdown by currency | Subtotals per currency and their converted amounts in the default currency. |
 | Assets and liabilities | Total assets, total liabilities, and the difference (net worth). |

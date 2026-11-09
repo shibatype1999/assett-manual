@@ -10,14 +10,14 @@ This Policy is a translation of the Japanese version. If there is any discrepanc
 
 ## 1. Basic policy
 
-The App is designed so that the data you enter is managed only on your device. The Operator does not collect data such as your assets or balances.
+The App is designed so that the data you enter is managed on your device. The Operator does not collect data such as your assets or balances.
 
 However, because the App displays advertisements, information needed to deliver them may be sent to an advertising provider (Google LLC) (see "6-2. Advertising").
 
 ## 2. Data entered in the App
 
-- Data you register in the App, such as assets, balances, records, memos, goals, and settings (including data imported from screenshots or CSV files), is stored only on your device.
-- This data is not sent to the Operator's servers or anywhere else.
+- Data you register in the App, such as assets, balances, records, memos, goals, and settings (including data imported from screenshots or CSV files), is stored on your device.
+- This data is never sent to the Operator's servers. Only when you use **Export Data** or turn on **Also save to iCloud Drive** is it saved to the destination you choose or to your own iCloud Drive (see "5. Backup files").
 - No account is required to use the App, and the App does not ask for personal information such as your name or email address.
 - Deleting the App deletes the data stored on your device (including backups inside the App).
 
@@ -48,6 +48,12 @@ To obtain exchange rates and gold and crypto prices, the App communicates with t
 Files created with **Export Data** in the App are saved to the destination you choose (services such as iCloud Drive, or other apps). They are handled there according to each service's own policies.
 
 If you set a password when exporting, the file is saved encrypted. The password is not sent anywhere, including to the Operator, and the file cannot be restored if you forget it.
+
+If you turn on **Also save to iCloud Drive** under **Backup options** in the App, a backup file is also saved to the "Asset" folder of your own iCloud Drive (a service of Apple Inc.) each time a backup is made.
+
+- This file contains your data, such as assets, balances, and records, without encryption.
+- It is handled in iCloud Drive according to Apple Inc.'s terms and privacy policy. The Operator never obtains this file.
+- You can turn this off at any time, and you can delete saved files in the Files app.
 
 ## 5-2. Importing from screenshots and CSV files
 

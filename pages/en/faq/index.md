@@ -1,5 +1,5 @@
 # FAQ
-<!-- position: 14 -->
+<!-- position: 16 -->
 <!-- description: Frequently asked questions about Asset Manager. -->
 
 ## Using the app
@@ -74,14 +74,14 @@ To show a chart, the selected period needs records on at least two different dat
 
 These buttons appear only when at least one category contains assets. Put assets into a category under **Settings** → **Categories**.
 
-### Q. "Some currency rates could not be fetched and are not included in the total" appears.
+### Q. "Waiting for rate data for some currencies" appears.
 
-An asset uses a currency whose rate is unknown. Go to **Settings** → **Currency & Rates** and fetch the rate for that currency, or enter it manually.
+Some assets use a currency whose rate isn't known yet. They are added to the total as soon as the rate is available. If the message doesn't go away after a while, tap **Refresh rates** under **Settings** → **Currency & Rates**, or enter the rate manually.
 → [Currencies and Exchange Rates](currency)
 
 ### Q. I can't refresh exchange rates.
 
-Rates can be fetched up to 2 times per day. If you have reached the limit, please try again the next day.
+Rates are fetched automatically up to once per day. If you have reached the limit, please try again the next day.
 Also check that you are connected to the internet.
 
 ### Q. Some assets don't appear in the pie chart or on the Allocation tab.
@@ -119,12 +119,12 @@ No. Apple Intelligence runs only on your device, and data such as your assets an
 
 ### Q. Can I use the app for free?
 
-Yes. Most features, including unlimited assets, all chart types, periods up to 3 years, custom currencies, batch entry, data import, AI features, and local backup, are free. The free version shows ads at the bottom of the screen.
+Yes. Most features, including unlimited assets, all chart types, periods up to 3 years, custom currencies, batch entry, data import, AI features, analysis, basic simulator estimates, local backup, and import/export, are free. The free version shows ads at the bottom of the screen.
 → [Premium](premium)
 
 ### Q. What happens to my data if I cancel Premium?
 
-Your recorded data is kept. Premium features such as 5Y, All, and Custom chart periods, auto backup, and import/export become unavailable, and ads are shown again.
+Your recorded data is kept. Premium features such as 5Y, All, and Custom chart periods, auto backup and saving to iCloud Drive, and yearly reports become unavailable, and ads are shown again.
 
 ### Q. Can I turn off ads?
 
@@ -151,8 +151,22 @@ No.
 4. If you subscribe to Premium, tap **Settings** → **Upgrade** → **Restore purchases**.
 
 The default currency, display format, date format, skin and theme, dashboard panel layout, passcode lock, and some other settings are not included in backups, so set them up again as needed.
-Export and import are Premium features.
 → [Backing Up and Restoring Data](backup)
+
+### Q. I want to be prepared in case my device breaks or is lost.
+
+With Premium, turn on **Also save to iCloud Drive** under **Backup options** to save a file to iCloud Drive every time a backup is made. On a new device, choose that file with **Import Data** to restore. In the free version, you can save to iCloud Drive and elsewhere with **Export Data**.
+→ [Backing Up and Restoring Data](backup)
+
+### Q. I want to know how much to save each month to reach my goal.
+
+The **Savings simulator** under **Settings** estimates when you'll reach your goal from your contributions and returns. **Projection to goal** on the **Chart** tab shows when you'll reach it at your current pace.
+→ [Simulators](simulators), [Analysis and Reports](analysis)
+
+### Q. Money paid into my brokerage account is counted as growth.
+
+**Contributions & Growth** counts changes in assets outside the **Deposits & Cash** category as growth. To count money paid into a brokerage account as a contribution, set **Monthly contribution** on the asset's edit screen, or attach the subcategory **Transfer in** to the record.
+→ [Analysis and Reports](analysis)
 
 ### Q. What happens to my data if I delete the app?
 

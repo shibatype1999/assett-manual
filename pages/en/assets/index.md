@@ -22,6 +22,8 @@ Manage assets on the **Asset list** screen. Open it with the pencil icon at the 
    | Asset Currency | The currency used for this asset's records, chosen with the scroll wheel. Defaults to your default currency. |
    | Category | The category to put this asset in. Choose **None** to leave it out of any category. |
    | Treat as Liability | When on, all amounts in this asset are counted as negative (liability). |
+   | Monthly contribution (optional) | The amount added every month by regular saving. In **Contributions & Growth**, this amount is treated as a contribution, and the rest of the change as growth. |
+   | Liquidity | Choose **Available now**, **Cash in a few days**, or **Not readily available**. The default comes from the category. Used in the **Liquidity** view on the Allocation tab. |
    | Color | The color used in charts and elsewhere. |
    | Icon | The icon for the asset. |
 

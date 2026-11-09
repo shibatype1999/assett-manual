@@ -26,6 +26,8 @@ assett-manual/
 │   │   ├── backup/index.md
 │   │   ├── data-import/index.md
 │   │   ├── ai/index.md
+│   │   ├── analysis/index.md
+│   │   ├── simulators/index.md
 │   │   ├── settings/index.md
 │   │   ├── premium/index.md
 │   │   └── faq/index.md

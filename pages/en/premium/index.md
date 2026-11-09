@@ -1,8 +1,8 @@
 # Premium
-<!-- position: 13 -->
+<!-- position: 15 -->
 <!-- description: The features available with Premium (subscription), and how to subscribe and cancel. -->
 
-Asset Manager is free to use. Subscribe to Premium to remove ads and unlock 5-year and all-time charts and advanced backup features.
+Asset Manager is free to use. Subscribe to Premium to remove ads and unlock 5-year and all-time charts, auto backup and saving to iCloud Drive, yearly reports, detailed simulator estimates, and more.
 
 ![Upgrade screen](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/upgrade.png)
 
@@ -15,9 +15,11 @@ In addition to everything in the free version, you get the following.
 | Ads | Banner ads at the bottom of the screen | No ads |
 | Chart periods | 1M, 3M, 6M, 1Y, 3Y | Also 5Y, All, and Custom |
 | Dashboard "Total assets trend" periods | 6M, 1Y, 3Y | Also 5Y and All |
-| Backup | Local backup, restore from the latest | Auto backup, restore from the list, import/export |
+| Backup | Local backup, restore from the list, import/export | Also auto backup and saving to iCloud Drive |
+| Monthly & yearly reports | This month's and last month's monthly reports | Also yearly reports and past monthly reports |
+| Simulators | Basic estimates | Bonus months, contribution increases, inflation, fixed-rate withdrawals, detailed mode, worked-back amounts, saved plans and **Plan vs. actual** |
 
-The number of assets, all chart types (line, stacked, bar, and change factors), custom currencies, Bitcoin and Ethereum, batch entry, data import, AI features, skins, and passcode lock are available without limits in the free version.
+The number of assets, all chart types, custom currencies, Bitcoin and Ethereum, batch entry, data import, AI features, analysis (contributions & growth, performance, risk & return, projection to goal, currency impact, target mix, diversification, liquidity, diagnosis, and alerts), skins, and passcode lock are available without limits in the free version.
 
 Premium features are marked with a lock icon in the app. Tapping one shows a message; tap **View plans** to open the Upgrade screen.
 

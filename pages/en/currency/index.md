@@ -39,10 +39,10 @@ If any asset uses a currency other than your default currency, the app fetches t
 
 - Rates are fetched automatically when the app starts.
 - They are also fetched when you pull down on the **Dashboard**.
-- Automatic fetching happens **up to 2 times per day**. When the limit is reached, "Reached today's limit (up to 2 times per day)" is shown.
+- Automatic fetching happens **up to once per day**. When the limit is reached, "Reached today's limit (once per day)" is shown.
 - Tap **Refresh rates** to the right of **Currency Rates** on the **Currency & Rates** screen to fetch the rates of all the currencies you use again.
 - Rates for custom currencies (including points and miles) are not fetched automatically. Set them manually.
-- If the app can't connect to the internet, it uses the rates it fetched last time or built-in reference rates.
+- If the app can't connect to the internet, it uses the rates it fetched last time or the latest of the historical rates bundled in the app.
 
 ### Historical rates
 
@@ -115,7 +115,7 @@ Currencies that are not in the list, as well as points and miles, are handled as
 > **Caution**
 > A custom currency used by an asset can't be deleted. If you try, the names of the assets using it are shown. Change the currency of those assets first.
 
-## If "Some currency rates could not be fetched and are not included in the total" appears
+## If "Waiting for rate data for some currencies" appears
 
-If an asset uses a currency whose rate is unknown, its amount is not included in your total assets.
-Fetch the rate for that currency on the **Currency & Rates** screen, or enter it manually.
+If an asset uses a currency whose rate isn't known yet, its amount isn't included in your total assets. It is added as soon as the rate is available.
+If the message doesn't go away after a while, tap **Refresh rates** on the **Currency & Rates** screen, or enter the rate manually.

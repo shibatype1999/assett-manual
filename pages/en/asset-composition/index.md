@@ -1,6 +1,6 @@
 # Viewing Asset Composition
 <!-- position: 7 -->
-<!-- description: How to view your asset composition on a given date as a pie chart or treemap. -->
+<!-- description: How to view your asset composition on a given date as a pie chart or treemap, and the target mix, diversification, liquidity, and diagnosis views. -->
 
 The **Allocation** tab (screen title **Asset Composition**) shows how much you had in each asset (or category) on a date you choose.
 
@@ -14,8 +14,8 @@ The **Allocation** tab (screen title **Asset Composition**) shows how much you h
 
 ## What is shown
 
-- **Total Assets** – Your total assets on the selected date and the change from one month earlier.
-- **Pie chart / Treemap** – Switch with the **Pie chart** and **Treemap** buttons. The treemap shows each asset as a rectangle sized in proportion to its amount.
+- **Total Assets** – Your total assets on the selected date and the change from one month earlier. Use the eye button at the top right to hide amounts.
+- **View buttons** – The buttons in 3 columns × 2 rows switch between **Pie chart**, **Treemap**, and the analysis views **Target mix**, **Diagnosis**, **Diversification**, and **Liquidity**. The treemap shows each asset as a rectangle sized in proportion to its amount. For the analysis views, see [Analysis and Reports](analysis) (the date picker and the allocation table are not shown in them).
 - **Asset Breakdown table** – Each asset's amount and percentage, plus the total (total assets).
 
 Each asset's amount is based on its latest record on or before the selected date, converted to your default currency.

@@ -106,7 +106,6 @@ You can also set a password to export the file encrypted.
    - **To save to iCloud Drive** – Tap **Save to Files**, choose a folder in **iCloud Drive**, then tap **Save**.
    - **To save to another app** – Choose an app such as Google Drive and follow the on-screen instructions.
 
-![Share sheet](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/en/backup-share-sheet.png)
 
 > **Caution**
 > - The password is not saved in the app and is not sent to the operator. **If you forget the password, the encrypted file cannot be restored.**

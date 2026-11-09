@@ -106,7 +106,6 @@ ON にすると、バックアップを作るたびに、「ファイル」ア�
    - **iCloud Drive に保存する場合** … 「"ファイル"に保存」をタップし、「iCloud Drive」内の保存したいフォルダを選んで「保存」をタップします。
    - **ほかのアプリに保存する場合** … Google Drive などのアプリを選び、画面の指示に従って保存します。
 
-![共有シート](https://raw.githubusercontent.com/shibatype1999/assett-manual/main/images/ja/backup-share-sheet.png)
 
 > **ご注意**
 > - パスワードはアプリに保存されず、運営者にも送られません。**パスワードを忘れると、暗号化したファイルは復元できません。**

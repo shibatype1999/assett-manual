@@ -117,4 +117,4 @@ Even if any provision of these Terms, or any part thereof, is held invalid or un
 2. These Terms are governed by the laws of Japan. However, this does not prevent the application of provisions of the laws of the country or region where the User resides that cannot be excluded by agreement (mandatory provisions).
 3. Any dispute relating to the App shall be subject to the exclusive jurisdiction, in the first instance, of the court having jurisdiction over the Operator's location.
 
-Established: September 27, 2026
+Established: November 15, 2026

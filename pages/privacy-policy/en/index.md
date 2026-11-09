@@ -111,4 +111,4 @@ For inquiries about this Policy, please contact us by email from **Settings** â†
 
 Email: inquiry@app.fubuki.info
 
-Established: September 27, 2026
+Established: November 15, 2026
